@@ -1,0 +1,238 @@
+@import "../css/bobo_headerfooter.css";
+
+body{
+  margin: 0;
+  padding: 0;
+}
+
+#地圖文字{
+  color: black;
+}
+
+header.header{
+  background-color: #FBC7C3;
+}
+
+ul.美食下拉選單 > li > a.link_style2{
+  background-color: #FBC7C3;
+}
+
+ul.行程下拉選單 > li > a.link_style2{
+  background-color: #FBC7C3;
+}
+
+div.under{
+  background-color: #FBC7C3;
+}
+
+.main{
+  /* border: 1px solid blue; */
+  height: auto;
+  width: auto;
+  text-align: center;
+}
+
+div.甜點首圖{
+  /* border: 1px solid transparent; */
+  height: auto;
+  display: inline-block;
+  white-space:nowrap;
+  text-align: center;
+  font-size: 0;
+}
+
+div.甜點首圖 img{
+  /* border: 1px solid transparent; */
+  margin: 0;
+  border: 0;
+  font-size: 0;
+}
+
+div.大標題外框{
+  /* border: 1px solid transparent; */
+  text-align: left;
+}
+
+div.大標題{
+  /* border: 1px solid transparent; */
+  display: inline-block;
+  height: 50px;
+  width: 230px;
+  font-size: 32px;
+  color: #8C533D;
+  background-image: url("../images/標題色塊.png");
+  background-repeat: no-repeat;
+  background-size: 100% 100%;
+  text-align: center;
+  vertical-align: middle;
+  white-space:normal;
+  margin-left: 15%;
+  margin-top: -700px;
+}
+
+div.標題一{
+  /* border: 1px solid transparent; */
+  height: 150px;
+  width: auto;
+  display: inline-block;
+  text-align: center;
+  white-space: nowrap;
+  margin-top: -2px;
+  font-size: 0;
+}
+
+div.左一{
+  /* border: 1px solid transparent; */
+  display: inline-block;
+  font-size: 32px;
+  height: 100px;
+  width: 600px;
+  color: #8C533D;
+  background-color: #E0A39C;
+  text-align: center;
+}
+
+div.左一框{
+  /* border: 1px solid transparent; */
+  display: inline-block;
+  vertical-align: middle;
+  margin-top: 20px;
+}
+
+div.左二{
+  /* border: 1px solid transparent; */
+  display: inline-block;
+  font-size: 32px;
+  height: 100px;
+  width: 600px;
+  color: #8C533D;
+  background-color: #FBC7C3;
+  text-align: center;
+  margin-top: 0;
+}
+
+div.左二框{
+  /* border: 1px solid transparent; */
+  display: inline-block;
+  vertical-align: middle;
+  margin-top: 20px;
+}
+
+article.food{
+  /* border: 1px solid transparent; */
+  display: inline-block;
+  height: auto;
+  width: 300px;
+  white-space:normal;
+  margin: 20px;
+  margin-top: 50px;
+}
+
+a.food_block img{
+  /* border: 1px solid transparent; */
+  z-index: 2;
+}
+
+div.content_block{
+  /* border: 1px solid transparent; */
+  color: #8C533D;
+  background-color: #E0A39C;
+  border-radius: 20px;
+  z-index: 1;
+  margin: 20px;
+  margin-top: -20px;
+  line-height: 30px;
+}
+
+div.外框{
+  /* border: 1px solid transparent; */
+  margin: 18px 10px;
+  font-size: 24px;
+  /* width: 300px; */
+}
+
+article.food_big{
+  /* border: 1px solid transparent; */
+  display: inline-block;
+  height: auto;
+  width: auto;
+  white-space:normal;
+  margin: 20px;
+  vertical-align: top;
+  text-align: center;
+  margin-right: 0;
+}
+
+a.food_block_big img{
+  /* border: 1px solid transparent; */
+}
+
+div.content_block_big{
+  /* border: 1px solid transparent; */
+  display: inline-block;
+  width: 300px;
+  height: 80px;
+  color: #8C533D;
+  font-size: 28px;
+  z-index: 5;
+  background-image: url("../images/甜點首圖_星型背景.png");
+  background-repeat: no-repeat;
+  background-size: 100% 100%;
+  margin-top: -60px;
+  margin-left: -250px;
+  vertical-align: middle;
+}
+
+div.外框_big{
+  /* border: 1px solid transparent; */
+  width: auto;
+  text-align: center;
+  margin: 20px
+}
+
+div.標題二{
+  /* border: 1px solid transparent; */
+  height: 100px;
+  width: auto;
+  display: inline-block;
+  text-align: center;
+  white-space: nowrap;
+  margin-top: 40px;
+}
+
+div.左三{
+  /* border: 1px solid transparent; */
+  display: inline-block;
+  font-size: 32px;
+  height: 100px;
+  width: 600px;
+  color: #8C533D;
+  background-color: #FBC7C3;
+  text-align: center;
+}
+
+div.左三框{
+  /* border: 1px solid transparent; */
+  display: inline-block;
+  vertical-align: middle;
+  margin-top: 20px;
+}
+
+div.左四{
+  /* border: 1px solid transparent; */
+  display: inline-block;
+  font-size: 32px;
+  height: 100px;
+  width: 600px;
+  color: #8C533D;
+  background-color: #E0A39C;
+  text-align: center;
+  margin-top: 0;
+}
+
+div.左四框{
+  /* border: 1px solid transparent; */
+  display: inline-block;
+  vertical-align: middle;
+  margin-top: 20px;
+}

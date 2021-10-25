@@ -1,0 +1,201 @@
+header{
+  border: 1px ;
+}
+
+header.header{
+  border: 1px solid transparent;
+  width: 1440px;
+  margin: 0 auto;
+  box-sizing: border-box;
+  background-color: #F6EFE3;
+  position: sticky;
+  z-index: 100;
+  top: 0;
+  /* text-align: center; */
+}
+
+.logo{
+  margin-left: 20px;
+}
+
+header.header nav.nav{
+  border: 1px solid transparent;
+  display: inline-block;
+  float: right;
+  margin-top: 5px;
+}
+
+
+header.header nav.nav ul.nav_list{
+  border: 1px solid transparent;
+  margin: 0;
+  padding: 0;
+  font-size: 24px;
+}
+
+ul.nav_list li.nav_item{
+  border: 1px solid transparent;
+  list-style: none;
+  display: inline-block;
+  margin-right: 30px;
+}
+
+header.header span {
+  border: 1px solid transparent;
+  display: inline-block;
+  vertical-align: middle;
+}
+
+header.header img {
+   vertical-align: middle;
+ }
+
+#選單{
+  border: 1px solid transparent;
+  padding: 5px 10px;
+
+  /* 第一步 */
+  position: relative;
+}
+
+
+#選單:hover ul.美食下拉選單{
+  border: 1px solid transparent;
+  /* 第三步 */
+  display: block;
+  z-index: 10;
+}
+
+
+ul.美食下拉選單{
+  border: 1px solid transparent;
+  list-style: none;
+  width: 130px;
+  margin: 0;
+  padding: 0;
+
+  /* 第二步 */
+
+  position: absolute;
+  right: 0;
+  top: 100%;
+  display: none;
+
+}
+
+ul.美食下拉選單 > li{
+  border: 1px solid #8C533D;
+  width: 100%;
+}
+
+ul.美食下拉選單 > li > a.link_style2{
+  border: 1px solid transparent;
+  display: inline-block;
+  text-decoration: none;
+  width: 100%;
+  text-align: center;
+  padding: 5px 0;
+  color: #8C533D;
+  background-color: #F6EFE3;
+}
+
+ul.美食下拉選單 > li > a.link_style2:hover{
+  color: #F6EFE3;
+  background-color: #8C533D;
+}
+
+#行程{
+  border: 1px solid transparent;
+  padding: 5px 10px;
+
+  /* 第一步 */
+  position: relative;
+}
+
+
+#行程:hover ul.行程下拉選單{
+  border: 1px solid transparent;
+  /* 第三步 */
+  display: block;
+  z-index: 10;
+}
+
+
+ul.行程下拉選單{
+  border: 1px solid transparent;
+  list-style: none;
+  width: 130px;
+  margin: 0;
+  padding: 0;
+
+  /* 第二步 */
+
+  position: absolute;
+  right: 0;
+  top: 100%;
+  display: none;
+
+}
+
+ul.行程下拉選單 > li{
+  border: 1px solid #8C533D;
+  width: 100%;
+}
+
+ul.行程下拉選單 > li > a.link_style2{
+  border: 1px solid transparent;
+  display: inline-block;
+  text-decoration: none;
+  width: 100%;
+  text-align: center;
+  padding: 5px 0;
+  color: #8C533D;
+  background-color: #F6EFE3;
+}
+
+ul.行程下拉選單 > li > a.link_style2:hover{
+  color: #F6EFE3;
+  background-color: #8C533D;
+}
+
+footer.footer{
+  border: 1px solid transparent;
+  text-align: center;
+  display: inline-block;
+  width: 100%;
+}
+
+div.under{
+  border: 1px solid transparent;
+  display: inline-block;
+  width: 1440px;
+  margin: 0 auto;
+  box-sizing: border-box;
+  background-color: #F6EFE3;
+  text-align: center;
+}
+
+div.copy{
+  border: 1px solid transparent;
+  display: inline-block;
+  width: auto;
+  text-align: left;
+  margin: 40px;
+  color: #8C533D;
+}
+
+div.icon{
+  border: 1px solid transparent;
+  display: inline-block;
+  width: auto;
+  text-align: center;
+  color: #8C533D;
+}
+
+div.icon img{
+  margin-right: 10px;
+}
+
+a.link_style{
+  color: #8C533D;
+}

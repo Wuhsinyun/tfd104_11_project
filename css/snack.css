@@ -1,0 +1,226 @@
+@import "../css/bobo_headerfooter.css";
+
+body{
+  margin: 0;
+  padding: 0;
+}
+
+#地圖文字{
+  color: black;
+}
+
+header.header{
+  background-color: #8C533D;
+}
+
+header.header span{
+  color: #F6EFE3;
+}
+
+ul.美食下拉選單{
+  background-color: #8C533D;
+}
+
+ul.美食下拉選單 > li{
+  border: 1px solid #F6EFE3;
+}
+
+ul.美食下拉選單 > li > a.link_style2{
+  color: #F6EFE3;
+  background-color: #8C533D;
+}
+
+ul.美食下拉選單 > li > a.link_style2:hover{
+color: #8C533D;
+background-color: #F6EFE3;
+}
+
+ul.行程下拉選單{
+  background-color: #8C533D;
+}
+
+ul.行程下拉選單 > li{
+  border: 1px solid #F6EFE3;
+}
+
+ul.行程下拉選單 > li > a.link_style2{
+  color: #F6EFE3;
+  background-color: #8C533D;
+}
+
+ul.行程下拉選單 > li > a.link_style2:hover{
+color: #8C533D;
+background-color: #F6EFE3;
+}
+
+div.under{
+  background-color: #8C533D;
+}
+
+div.copy{
+  color: #F6EFE3;
+}
+
+div.icon{
+  color: #F6EFE3;
+}
+
+.main{
+  /* border: 1px solid transparent; */
+  height: auto;
+  width: auto;
+}
+
+div.小吃首圖{
+  /* border: 1px solid transparent; */
+  width: 100%;
+  min-width: 1440px;
+  text-align: center;
+  margin: auto 0;
+}
+
+div.照片標題{
+  /* border: 1px solid transparent; */
+  display: inline-block;
+  height: 50px;
+  width: 230px;
+  font-size: 32px;
+  color: #8C533D;
+  background-image: url("../images/標題色塊.png");
+  background-repeat: no-repeat;
+  background-size: 100% 100%;
+  text-align: center;
+  vertical-align: middle;
+  margin-left: 10%;
+  margin-top: -160px;
+}
+div.轉圈圈{
+  /* border: 1px solid transparent; */
+  display: inline-block;
+  text-align: center;
+  height: auto;
+  width: 100%;
+  white-space:nowrap;
+  margin-top: 20px;
+}
+
+article.food{
+  /* border: 1px solid transparent; */
+  display: inline-block;
+  height: auto;
+  width: 300px;
+  white-space:normal;
+  margin: 20px;
+  margin-top: 50px;
+}
+
+a.food_block img{
+  /* border: 1px solid transparent; */
+  z-index: 2;
+}
+
+div.content_block{
+  /* border: 1px solid transparent; */
+  color: #F6EFE3;
+  background-color: #8C533D;
+  border-radius: 20px;
+  z-index: 1;
+  margin: 20px;
+  margin-top: -20px;
+  line-height: 30px;
+}
+
+div.外框{
+  /* border: 1px solid transparent; */
+  margin: 18px 10px;
+  /* width: 300px; */
+}
+
+div.content_block span{
+  /* border: 1px solid transparent; */
+  font-size: 22px;
+  /* margin: 50px; */
+}
+
+article.food_big{
+  /* border: 1px solid transparent; */
+  display: inline-block;
+  height: 500px;
+  width: 350px;
+  white-space:normal;
+  margin: 20px;
+  vertical-align: top;
+}
+
+a.food_block_big img{
+  /* border: 1px solid transparent; */
+  z-index: 2;
+}
+
+div.content_block_big{
+  /* border: 1px solid transparent; */
+  /* width: 300px; */
+  color: #F6EFE3;
+  background-color: #8C533D;
+  border-radius: 20px;
+  z-index: 1;
+  margin: 20px;
+  margin-top: -20px;
+  line-height: 30px;
+  font-size: 18px;
+}
+
+div.外框_big{
+  /* border: 1px solid transparent; */
+  margin: 18px 10px;
+
+}
+
+#中間標題{
+  /* border: 1px solid transparent; */
+  font-size: 26px;
+}
+
+div.輪播按鈕左{
+  /* border: 1px solid transparent; */
+  display: inline-block;
+  height: auto;
+  text-align: left;
+}
+
+div.按鈕左{
+  /* border: 1px solid transparent; */
+  height: auto;
+  width: 20px;
+  color: #F6EFE3;
+  background-color: #8C533D;
+  font-size: 30px;
+}
+
+div.按鈕左:hover{
+  color: #8C533D;
+  background-color: #F6EFE3;
+}
+
+div.輪播按鈕右{
+  /* border: 1px solid transparent; */
+  display: inline-block;
+  height: auto;
+  text-align: right;
+}
+
+div.按鈕右{
+  /* border: 1px solid transparent; */
+  display: inline-block;
+  height: auto;
+  width: 20px;
+  color: #F6EFE3;
+  background-color: #8C533D;
+  text-align: right;
+  font-size: 30px;
+}
+
+div.按鈕右:hover{
+  color: #8C533D;
+  background-color: #F6EFE3;
+}

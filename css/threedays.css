@@ -1,0 +1,108 @@
+@import "../css/bobo_headerfooter.css";
+
+body{
+  margin: 0;
+  padding: 0;
+}
+
+#行程文字{
+  color: black;
+}
+
+.main{
+  /* border: 1px solid blue; */
+  height: auto;
+  width: auto;
+}
+
+div.大標題外框{
+  /* border: 1px solid black; */
+  text-align: left;
+}
+
+div.大標題{
+  /* border: 1px solid orange; */
+  display: inline-block;
+  height: 50px;
+  width: 230px;
+  font-size: 32px;
+  color: #8C533D;
+  background-image: url("../images/標題色塊.png");
+  background-repeat: no-repeat;
+  background-size: 100% 100%;
+  text-align: center;
+  vertical-align: middle;
+  white-space:normal;
+  margin-left: 15%;
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+
+div.一排{
+  /* border: 1px solid orange; */
+  height: 550px;
+  text-align: center;
+  white-space: nowrap;
+}
+
+article.food1{
+  /* border: 1px solid green; */
+  display: inline-block;
+  height: auto;
+  width: 300px;
+  white-space:normal;
+  margin: 0 20px;
+  text-align: center;
+}
+
+article.food2{
+  /* border: 1px solid black; */
+  display: inline-block;
+  height: auto;
+  width: 300px;
+  white-space:normal;
+  margin: 0 20px;
+  text-align: center;
+  position: relative;
+  top: 50px;
+}
+
+article.food3{
+  /* border: 1px solid green; */
+  display: inline-block;
+  height: auto;
+  width: 300px;
+  white-space:normal;
+  margin: 0 20px;
+  text-align: center;
+  position: relative;
+  top: 100px;
+}
+
+article.food4{
+  /* border: 1px solid black; */
+  display: inline-block;
+  height: auto;
+  width: 300px;
+  white-space:normal;
+  margin: 0 20px;
+  text-align: center;
+  position: relative;
+  top: 150px;
+}
+
+div.content_block{
+  /* border: 1px solid blue; */
+  color: #8C533D;
+  background-color: #F6EFE3;
+  border-radius: 20px;
+  margin: 20px;
+  line-height: 30px;
+}
+
+div.外框{
+  /* border: 1px solid purple; */
+  margin: 18px 10px;
+  font-size: 20px;
+  /* width: 300px; */
+}

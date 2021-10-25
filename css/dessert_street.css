@@ -1,0 +1,104 @@
+@import "../css/bobo_headerfooter.css";
+
+body{
+  margin: 0;
+  padding: 0;
+}
+
+#地圖文字{
+  color: black;
+}
+
+header.header{
+  background-color: #FBC7C3;
+}
+
+ul.美食下拉選單{
+  background-color: #FBC7C3;
+}
+
+ul.行程下拉選單{
+  background-color: #FBC7C3;
+}
+
+div.under{
+  background-color: #FBC7C3;
+}
+
+.main{
+  border: 1px solid blue;
+  /* display: inline-block; */
+  height: auto;
+  width: auto;
+  text-align: center;
+}
+
+div.標題{
+  border: 1px solid black;
+  height: auto;
+  width: 1440px;
+  text-align: center;
+}
+
+div.title{
+  border: 1px solid red;
+  height: auto;
+  width: 150px;
+  margin-top: 20px;
+  margin-left: 10%;
+  font-size: 36px;
+  color: #8C533D;
+  background-color: #FBC7C3;
+  border-radius: 20px;
+}
+
+div.店家區塊{
+  border: 1px solid green;
+  height: auto;
+}
+
+div.區塊外框{
+  border: 1px solid gray;
+  display: inline-block;
+  height: auto;
+  width: 1200px;
+}
+
+article.left{
+  border: 1px solid blue;
+  display: inline-block;
+  height: auto;
+  width: 692px;
+  margin-top: 0;
+  /* margin: 20px; */
+  /* margin-top: 50px; */
+  text-align: left;
+}
+
+a.food_block img{
+  border: 1px solid transparent;
+}
+
+div.content_block{
+  border: 1px solid orange;
+  width: 692px;
+  color: #8C533D;
+  background-color: #FBC7C3;
+  border-radius: 20px;
+  /* margin-top: 20px; */
+}
+
+div.外框{
+  border: 1px solid yellow;
+  margin: 18px 10px;
+  font-size: 24px;
+  text-align: center;
+}
+
+div.right{
+  border: 1px solid purple;
+  display: inline-block;
+  height: 560px;
+  width: 440px;
+  /* margin-top: 20px; */
+}

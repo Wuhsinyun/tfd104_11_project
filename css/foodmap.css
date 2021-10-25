@@ -1,0 +1,248 @@
+@import "../css/bobo_headerfooter.css";
+
+body{
+  margin: 0;
+  padding: 0;
+}
+
+#地圖文字{
+  color: black;
+}
+
+.main{
+  /* border: 1px solid transparent; */
+  height: auto;
+  width: auto;
+}
+
+div.map{
+  /* border: 1px solid transparent; */
+  margin-top: 10px;
+  text-align: center;
+}
+
+div.mapchoose{
+  /* border: 1px solid transparent; */
+  width: 100%;
+  display: inline-block;
+  text-align: center;
+  margin: 0px auto;
+  white-space:nowrap;
+}
+
+div.mapchoose ul.map_list{
+  /* border: 1px solid transparent; */
+  margin: 5px auto;
+}
+
+ul.map_list li.mapmap{
+  /* border: 1px solid transparent; */
+  list-style: none;
+  display: inline-block;
+  /* text-align: center; */
+  /* margin: 0px auto; */
+  margin-right: 30px;
+}
+
+button.小吃按鈕{
+  /* border: 1px solid transparent; */
+  /* margin-top: 20px; */
+  height: auto;
+  width: auto;
+  color: #F6EFE3;
+  background-color: #8C533D;
+  border-radius: 30px;
+  font-size: 18px;
+}
+
+button.甜點按鈕{
+  /* border: 1px solid transparent; */
+  /* margin-top: 20px; */
+  height: auto;
+  width: auto;
+  color: #8C533D;
+  background-color: #FBC7C3;
+  border-radius: 30px;
+  font-size: 18px;
+}
+
+
+button.餐廳按鈕{
+  /* border: 1px solid transparent; */
+  /* margin-top: 20px; */
+  height: auto;
+  width: auto;
+  color: #8C533D;
+  background-color: #FABB7C;
+  border-radius: 30px;
+  font-size: 18px;
+}
+
+button.小吃按鈕:hover{
+  cursor: pointer;
+  background-color: #F6EFE3;
+  color: #8C533D;
+}
+
+button.甜點按鈕:hover{
+  cursor: pointer;
+  background-color: #F6EFE3;
+  color: #8C533D;
+}
+
+button.餐廳按鈕:hover{
+  cursor: pointer;
+  background-color: #F6EFE3;
+  color: #8C533D;
+}
+
+
+li.mapmap{
+  /* border: 1px solid transparent; */
+  padding: 5px 10px;
+
+  /* 第一步 */
+  position: relative;
+}
+
+
+li.mapmap:hover ul.小吃下拉選單{
+  /* border: 1px solid transparent; */
+  /* 第三步 */
+  display: block;
+  z-index: 10;
+}
+
+
+ul.小吃下拉選單{
+  /* border: 1px solid transparent; */
+  list-style: none;
+  width: 100px;
+  margin: 0;
+  padding: 0;
+  background-color: #8C533D;
+  margin-right: 11px;
+  font-size: 14px;
+  /* 第二步 */
+
+  position: absolute;
+  right: 0;
+  top: 100%;
+  display: none;
+
+}
+
+ul.小吃下拉選單 > li{
+  border: 1px solid #F6EFE3;
+  width: 100%;
+}
+
+ul.小吃下拉選單 > li > a.小吃按鈕{
+  /* border: 1px solid transparent; */
+  display: inline-block;
+  text-decoration: none;
+  width: 100%;
+  text-align: center;
+  padding: 1px 0;
+  color: #F6EFE3;
+}
+
+ul.小吃下拉選單 > li > a.小吃按鈕:hover{
+  cursor: pointer;
+  background-color: #F6EFE3;
+  color: #8C533D;
+}
+
+li.mapmap:hover ul.甜點下拉選單{
+  /* border: 1px solid transparent; */
+  /* 第三步 */
+  display: block;
+  z-index: 10;
+}
+
+
+ul.甜點下拉選單{
+  /* border: 1px solid transparent; */
+  list-style: none;
+  width: 100px;
+  margin: 0;
+  padding: 0;
+  background-color: #FBC7C3;
+  margin-right: 11px;
+  font-size: 14px;
+  /* 第二步 */
+
+  position: absolute;
+  right: 0;
+  top: 100%;
+  display: none;
+
+}
+
+ul.甜點下拉選單 > li{
+  border: 1px solid #8C533D;
+  width: 100%;
+}
+
+ul.甜點下拉選單 > li > a.甜點按鈕{
+  /* border: 1px solid transparent; */
+  display: inline-block;
+  text-decoration: none;
+  width: 100%;
+  text-align: center;
+  padding: 1px 0;
+  color: #8C533D;
+}
+
+ul.甜點下拉選單 > li > a.甜點按鈕:hover{
+  cursor: pointer;
+  background-color: #F6EFE3;
+  color: #8C533D;
+}
+
+li.mapmap:hover ul.餐廳下拉選單{
+  /* border: 1px solid transparent; */
+  /* 第三步 */
+  display: block;
+  z-index: 10;
+}
+
+
+ul.餐廳下拉選單{
+  /* border: 1px solid transparent; */
+  list-style: none;
+  width: 100px;
+  margin: 0;
+  padding: 0;
+  background-color: #FABB7C;
+  margin-right: 11px;
+  font-size: 14px;
+  /* 第二步 */
+
+  position: absolute;
+  right: 0;
+  top: 100%;
+  display: none;
+
+}
+
+ul.餐廳下拉選單 > li{
+  border: 1px solid #8C533D;
+  width: 100%;
+}
+
+ul.餐廳下拉選單 > li > a.餐廳按鈕{
+  /* border: 1px solid transparent; */
+  display: inline-block;
+  text-decoration: none;
+  width: 100%;
+  text-align: center;
+  padding: 1px 0;
+  color: #8C533D;
+}
+
+ul.餐廳下拉選單 > li > a.餐廳按鈕:hover{
+  cursor: pointer;
+  background-color: #F6EFE3;
+  color: #8C533D;
+}
