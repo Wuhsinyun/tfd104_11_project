@@ -4,7 +4,8 @@ header{
 
 header.header{
   border: 1px solid transparent;
-  width: 1440px;
+  width: 100%;
+  min-width: 1440px;
   margin: 0 auto;
   box-sizing: border-box;
   background-color: #F6EFE3;
