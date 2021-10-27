@@ -3,7 +3,7 @@ header{
 }
 
 header.header{
-  border: 1px solid transparent;
+  /* border: 1px solid black; */
   width: 100%;
   min-width: 1440px;
   margin: 0 auto;
@@ -20,7 +20,7 @@ header.header{
 }
 
 header.header nav.nav{
-  border: 1px solid transparent;
+  /* border: 1px solid black; */
   display: inline-block;
   float: right;
   margin-top: 5px;
@@ -28,21 +28,21 @@ header.header nav.nav{
 
 
 header.header nav.nav ul.nav_list{
-  border: 1px solid transparent;
+  /* border: 1px solid blue; */
   margin: 0;
   padding: 0;
   font-size: 24px;
 }
 
 ul.nav_list li.nav_item{
-  border: 1px solid transparent;
+  /* border: 1px solid green; */
   list-style: none;
   display: inline-block;
   margin-right: 30px;
 }
 
 header.header span {
-  border: 1px solid transparent;
+  /* border: 1px solid yellow; */
   display: inline-block;
   vertical-align: middle;
 }
@@ -51,8 +51,8 @@ header.header img {
    vertical-align: middle;
  }
 
-#選單{
-  border: 1px solid transparent;
+#choose{
+  /* border: 1px solid purple; */
   padding: 5px 10px;
 
   /* 第一步 */
@@ -60,16 +60,16 @@ header.header img {
 }
 
 
-#選單:hover ul.美食下拉選單{
-  border: 1px solid transparent;
+#choose:hover ul.foodchoose{
+  /* border: 1px solid red; */
   /* 第三步 */
   display: block;
   z-index: 10;
 }
 
 
-ul.美食下拉選單{
-  border: 1px solid transparent;
+ul.foodchoose{
+  /* border: 1px solid black; */
   list-style: none;
   width: 130px;
   margin: 0;
@@ -84,13 +84,13 @@ ul.美食下拉選單{
 
 }
 
-ul.美食下拉選單 > li{
+ul.foodchoose > li{
   border: 1px solid #8C533D;
   width: 100%;
 }
 
-ul.美食下拉選單 > li > a.link_style2{
-  border: 1px solid transparent;
+ul.foodchoose > li > a.link_style2{
+  /* border: 1px solid orange; */
   display: inline-block;
   text-decoration: none;
   width: 100%;
@@ -100,13 +100,55 @@ ul.美食下拉選單 > li > a.link_style2{
   background-color: #F6EFE3;
 }
 
-ul.美食下拉選單 > li > a.link_style2:hover{
+ul.foodchoose > li > a.link_style2:hover{
   color: #F6EFE3;
   background-color: #8C533D;
 }
 
-#行程{
-  border: 1px solid transparent;
+
+
+ul.foodchoose li ul{
+  display: none;
+  float: right;
+  position: absolute;
+  margin-left: 130px;
+  margin-top: -43px;
+  padding: 0;
+  font-size: 20px;
+}
+
+ul.foodchoose li:hover > ul{
+  display: block;
+}
+
+ul.foodchoose ul li{
+  border: 1px solid #8C533D;
+  list-style: none;
+  width: 100px;
+  text-align: center;
+  /* padding: 5px 0; */
+  color: #8C533D;
+  background-color: #F6EFE3;
+}
+
+ul.foodchoose ul li a.link_style3{
+  /* border: 1px solid orange; */
+  /* display: inline-block; */
+  text-decoration: none;
+  /* width: 100px; */
+  text-align: center;
+  /* padding: 5px 0; */
+  color: #8C533D;
+  background-color: #F6EFE3;
+}
+
+ul.foodchoose ul li a.link_style3:hover{
+  color: #F6EFE3;
+  background-color: #8C533D;
+}
+
+#journey{
+  /* border: 1px solid purple; */
   padding: 5px 10px;
 
   /* 第一步 */
@@ -114,16 +156,16 @@ ul.美食下拉選單 > li > a.link_style2:hover{
 }
 
 
-#行程:hover ul.行程下拉選單{
-  border: 1px solid transparent;
+#journey:hover ul.journeychoose{
+  /* border: 1px solid red; */
   /* 第三步 */
   display: block;
   z-index: 10;
 }
 
 
-ul.行程下拉選單{
-  border: 1px solid transparent;
+ul.journeychoose{
+  /* border: 1px solid black; */
   list-style: none;
   width: 130px;
   margin: 0;
@@ -138,13 +180,13 @@ ul.行程下拉選單{
 
 }
 
-ul.行程下拉選單 > li{
+ul.journeychoose > li{
   border: 1px solid #8C533D;
   width: 100%;
 }
 
-ul.行程下拉選單 > li > a.link_style2{
-  border: 1px solid transparent;
+ul.journeychoose > li > a.link_style2{
+  /* border: 1px solid orange; */
   display: inline-block;
   text-decoration: none;
   width: 100%;
@@ -154,20 +196,20 @@ ul.行程下拉選單 > li > a.link_style2{
   background-color: #F6EFE3;
 }
 
-ul.行程下拉選單 > li > a.link_style2:hover{
+ul.journeychoose > li > a.link_style2:hover{
   color: #F6EFE3;
   background-color: #8C533D;
 }
 
 footer.footer{
-  border: 1px solid transparent;
+  /* border: 1px solid transparent; */
   text-align: center;
   display: inline-block;
   width: 100%;
 }
 
 div.under{
-  border: 1px solid transparent;
+  /* border: 1px solid transparent; */
   display: inline-block;
   width: 1440px;
   margin: 0 auto;
@@ -177,7 +219,7 @@ div.under{
 }
 
 div.copy{
-  border: 1px solid transparent;
+  /* border: 1px solid transparent; */
   display: inline-block;
   width: auto;
   text-align: left;
@@ -186,7 +228,7 @@ div.copy{
 }
 
 div.icon{
-  border: 1px solid transparent;
+  /* border: 1px solid transparent; */
   display: inline-block;
   width: auto;
   text-align: center;

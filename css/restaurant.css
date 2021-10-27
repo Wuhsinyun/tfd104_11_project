@@ -5,7 +5,7 @@ body{
   padding: 0;
 }
 
-#地圖文字{
+#nav_map{
   color: black;
 }
 
@@ -13,14 +13,21 @@ header.header{
   background-color: #FABB7C;
 }
 
-ul.美食下拉選單 > li > a.link_style2{
+ul.foodchoose > li > a.link_style2{
   background-color: #FABB7C;
 }
 
-ul.行程下拉選單 > li > a.link_style2{
+ul.foodchoose > li > a.link_style2{
   background-color: #FABB7C;
 }
 
+ul.journeychoose > li > a.link_style2{
+  background-color: #FABB7C;
+}
+
+ul.journeychoose > li > a.link_style2{
+  background-color: #FABB7C;
+}
 
 div.under{
   background-color: #FABB7C;

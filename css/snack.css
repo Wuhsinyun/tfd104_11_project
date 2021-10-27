@@ -5,7 +5,7 @@ body{
   padding: 0;
 }
 
-#地圖文字{
+#nav_map{
   color: black;
 }
 
@@ -17,38 +17,38 @@ header.header span{
   color: #F6EFE3;
 }
 
-ul.美食下拉選單{
+ul.foodchoose{
   background-color: #8C533D;
 }
 
-ul.美食下拉選單 > li{
+ul.foodchoose > li{
   border: 1px solid #F6EFE3;
 }
 
-ul.美食下拉選單 > li > a.link_style2{
+ul.foodchoose > li > a.link_style2{
   color: #F6EFE3;
   background-color: #8C533D;
 }
 
-ul.美食下拉選單 > li > a.link_style2:hover{
+ul.foodchoose > li > a.link_style2:hover{
 color: #8C533D;
 background-color: #F6EFE3;
 }
 
-ul.行程下拉選單{
+ul.journeychoose{
   background-color: #8C533D;
 }
 
-ul.行程下拉選單 > li{
+ul.journeychoose > li{
   border: 1px solid #F6EFE3;
 }
 
-ul.行程下拉選單 > li > a.link_style2{
+ul.journeychoose > li > a.link_style2{
   color: #F6EFE3;
   background-color: #8C533D;
 }
 
-ul.行程下拉選單 > li > a.link_style2:hover{
+ul.journeychoose > li > a.link_style2:hover{
 color: #8C533D;
 background-color: #F6EFE3;
 }
