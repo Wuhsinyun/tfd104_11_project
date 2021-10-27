@@ -17,11 +17,11 @@ ul.foodchoose > li > a.link_style2{
   background-color: #FBC7C3;
 }
 
-ul.foodchoose > li > a.link_style2{
+ul.foodchoose ul li{
   background-color: #FBC7C3;
 }
 
-ul.journeychoose > li > a.link_style2{
+ul.foodchoose ul li a.link_style3{
   background-color: #FBC7C3;
 }
 

@@ -35,6 +35,22 @@ color: #8C533D;
 background-color: #F6EFE3;
 }
 
+ul.foodchoose ul li{
+  border: 1px solid #F6EFE3;
+  color: #F6EFE3;
+  background-color: #8C533D;
+}
+
+ul.foodchoose ul li a.link_style3{
+  color: #F6EFE3;
+  background-color: #8C533D;
+}
+
+ul.foodchoose ul li a.link_style3:hover{
+  color: #8C533D;
+  background-color: #F6EFE3;
+}
+
 ul.journeychoose{
   background-color: #8C533D;
 }

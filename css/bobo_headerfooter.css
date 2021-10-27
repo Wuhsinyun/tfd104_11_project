@@ -123,21 +123,26 @@ ul.foodchoose li:hover > ul{
 
 ul.foodchoose ul li{
   border: 1px solid #8C533D;
+  display: inline-block;
   list-style: none;
-  width: 100px;
+  /* height: 40px; */
+  width: 80px;
   text-align: center;
   /* padding: 5px 0; */
   color: #8C533D;
   background-color: #F6EFE3;
+  padding: 5px;
 }
 
 ul.foodchoose ul li a.link_style3{
   /* border: 1px solid orange; */
-  /* display: inline-block; */
+  display: block;
   text-decoration: none;
   /* width: 100px; */
   text-align: center;
-  /* padding: 5px 0; */
+  padding: 0;
+  margin: 0;
+  border: 0;
   color: #8C533D;
   background-color: #F6EFE3;
 }
