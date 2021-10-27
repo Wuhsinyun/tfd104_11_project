@@ -10,7 +10,7 @@ body{
   height: auto;
 }
 
-#首頁小吃_神農街裁切{
+#AAAA{
   /* border: 1px solid transparent; */
   height: 400px;
   width: 100%;
@@ -18,7 +18,7 @@ body{
   left:0;
  }
 
-#首頁咖底{
+#BROWN{
   /* border: 1px solid transparent; */
   height: 400px;
   width: 100%;
@@ -43,7 +43,7 @@ div.title{
   margin-top: -55px;
 }
 
-div.小吃{
+div.blockA{
   /* border: 1px solid transparent; */
   height: 150px;
   width: 1000px;
@@ -70,7 +70,7 @@ div.title2{
   margin-top: 120px;
 }
 
-div.首圖小吃{
+div.blockB{
   /* border: 1px solid transparent; */
   height: auto;
   width: auto;
@@ -79,13 +79,13 @@ div.首圖小吃{
   white-space:nowrap;
 }
 
-div.首圖小吃 img{
+div.blockB img{
   /* border: 1px solid transparent; */
   border-radius: 20px;
   margin-right: 25px;
 }
 
-div.小吃圖敘述{
+div.blockC{
   /* border: 1px solid transparent; */
   height: auto;
   width: auto;
@@ -94,7 +94,7 @@ div.小吃圖敘述{
   white-space:nowrap;
 }
 
-div.敘述一{
+div.blockD{
   /* border: 1px solid transparent; */
   display: inline-block;
   height: auto;
@@ -111,18 +111,18 @@ div.敘述一{
   white-space:normal;
 }
 
-div.敘述一 span{
+div.blockD span{
   /* border: 1px solid transparent; */
   font-size: 16px;
 }
 
-div.敘述一 img{
+div.blockD img{
   /* border: 1px solid transparent; */
   float: right;
   margin-top: 10px;
 }
 
-#首頁甜點_吃冰裁切{
+#BBBB{
   /* border: 1px solid transparent; */
   height: 400px;
   width: 100%;
@@ -131,7 +131,7 @@ div.敘述一 img{
   left:0;
  }
 
-#首頁粉底{
+#PINK{
   /* border: 1px solid transparent; */
   height: 400px;
   width: 100%;
@@ -140,7 +140,7 @@ div.敘述一 img{
   left:0;
 }
 
-div.甜點{
+div.blockE{
   /* border: 1px solid transparent; */
   height: 150px;
   width: 1000px;
@@ -165,7 +165,7 @@ div.title3{
   margin-top: 65px;
 }
 
-div.首圖甜點{
+div.blockF{
   /* border: 1px solid transparent; */
   height: auto;
   width: auto;
@@ -174,13 +174,13 @@ div.首圖甜點{
   white-space:nowrap;
 }
 
-div.首圖甜點 img{
+div.blockF img{
   /* border: 1px solid transparent; */
   border-radius: 20px;
   margin-right: 25px;
 }
 
-div.甜點圖敘述{
+div.blockG{
   /* border: 1px solid transparent; */
   height: auto;
   width: auto;
@@ -189,7 +189,7 @@ div.甜點圖敘述{
   white-space:nowrap;
 }
 
-div.敘述二{
+div.blockH{
   /* border: 1px solid transparent; */
   display: inline-block;
   height: auto;
@@ -206,18 +206,18 @@ div.敘述二{
   white-space:normal;
 }
 
-div.敘述二 span{
+div.blockH span{
   /* border: 1px solid transparent; */
   font-size: 16px;
 }
 
-div.敘述二 img{
+div.blockH img{
   /* border: 1px solid transparent; */
   float: right;
   margin-top: 10px;
 }
 
-#首頁餐廳_河樂廣場裁切{
+#CCCC{
   /* border: 1px solid transparent; */
   height: 400px;
   width: 100%;
@@ -226,7 +226,7 @@ div.敘述二 img{
   left:0;
  }
 
-#首頁黃底{
+#YELLOW{
   /* border: 1px solid transparent; */
   height: 400px;
   width: 100%;
@@ -235,7 +235,7 @@ div.敘述二 img{
   left:0;
 }
 
-div.餐廳{
+div.blockI{
   /* border: 1px solid transparent; */
   height: 150px;
   width: 1000px;
@@ -260,7 +260,7 @@ div.title4{
   margin-top: 65px;
 }
 
-div.首圖餐廳{
+div.blockJ{
   /* border: 1px solid transparent; */
   height: auto;
   width: auto;
@@ -269,13 +269,13 @@ div.首圖餐廳{
   white-space:nowrap;
 }
 
-div.首圖餐廳 img{
+div.blockJ img{
   /* border: 1px solid transparent; */
   border-radius: 20px;
   margin-right: 25px;
 }
 
-div.餐廳圖敘述{
+div.blockK{
   /* border: 1px solid transparent; */
   height: auto;
   width: auto;
@@ -284,7 +284,7 @@ div.餐廳圖敘述{
   white-space:nowrap;
 }
 
-div.敘述三{
+div.blockL{
   /* border: 1px solid transparent; */
   display: inline-block;
   height: auto;
@@ -301,12 +301,12 @@ div.敘述三{
   white-space:normal;
 }
 
-div.敘述三 span{
+div.blockL span{
   /* border: 1px solid transparent; */
   font-size: 16px;
 }
 
-div.敘述三 img{
+div.blockL img{
   /* border: 1px solid transparent; */
   float: right;
   margin-top: 10px;
@@ -356,7 +356,7 @@ ul.map_list li.mapmap{
   margin-right: 30px;
 }
 
-button.小吃按鈕{
+button.aaa{
   /* border: 1px solid transparent; */
   /* margin-top: 20px; */
   height: auto;
@@ -367,7 +367,7 @@ button.小吃按鈕{
   font-size: 18px;
 }
 
-button.甜點按鈕{
+button.bbb{
   /* border: 1px solid transparent; */
   /* margin-top: 20px; */
   height: auto;
@@ -379,7 +379,7 @@ button.甜點按鈕{
 }
 
 
-button.餐廳按鈕{
+button.ccc{
   /* border: 1px solid transparent; */
   /* margin-top: 20px; */
   height: auto;
@@ -390,78 +390,79 @@ button.餐廳按鈕{
   font-size: 18px;
 }
 
-button.小吃按鈕:hover{
+button.aaa:hover{
   /* border: 1px solid blue; */
   cursor: pointer;
   background-color: #F6EFE3;
   color: #8C533D;
 }
 
-button.甜點按鈕:hover{
+button.bbb:hover{
   /* border: 1px solid blue; */
   cursor: pointer;
   background-color: #F6EFE3;
   color: #8C533D;
 }
 
-button.餐廳按鈕:hover{
+button.ccc:hover{
   /* border: 1px solid blue; */
   cursor: pointer;
   background-color: #F6EFE3;
   color: #8C533D;
 }
 
-div.聯絡我們{
-  /* border: 1px solid transparent; */
+div.call{
+  /* border: 1px solid gray; */
   text-align: center;
   margin-top: 50px;
   margin-bottom: 30px;
   white-space:nowrap;
 }
 
-div.聯絡表單{
-  /* border: 1px solid transparent; */
+div.callme{
+  /* border: 1px solid purple; */
   width: 350px;
   height: 300px;
   display: inline-block;
   color: #8C533D;
   background-color: #F6EFE3;
   margin-left: 30px;
-  overflow: scroll;
+  overflow: auto;
   text-align: center;
 }
 
-div.聯絡表單::-webkit-scrollbar{
-  /* border: 1px solid transparent; */
+div.callme::-webkit-scrollbar{
+  /* border: 1px solid red; */
   background-color: #E0A39C;
   border-radius: 10px;
   width: 10px;
   height: 10px;
 }
 
-div.聯絡表單::-webkit-scrollbar-thumb{
+div.callme::-webkit-scrollbar-thumb{
   background-color: #FBC7C3;
   border-radius: 10px;
 }
 
-div.聯絡表單 form{
-  /* border: 1px solid transparent; */
+div.callme form{
+  /* border: 1px solid blue; */
   width: 300px;
-  text-align: left;
+  margin: 0 auto;
+  text-align: center;
   margin-top: 20px;
   font-size: 18px;
-  margin-left: 50px;
+  padding: 10px;
 }
 
-div.聯絡表單 span{
-  /* border: 1px solid transparent; */
+div.callme span{
+  /* border: 1px solid red; */
   width: 700px;
   text-align: center;
   font-size: 24px;
 }
 
-.表單bar{
-  /* border: 1px solid transparent; */
+.bar{
+  /* border: 1px solid green; */
   width: 70%;
   font-size: 14px;
   color: #8C533D;

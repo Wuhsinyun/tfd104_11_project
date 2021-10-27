@@ -5,7 +5,7 @@ body{
   padding: 0;
 }
 
-#行程文字{
+#two{
   color: black;
 }
 
@@ -13,14 +13,18 @@ body{
   /* border: 1px solid blue; */
   height: auto;
   width: auto;
+  text-align: center;
+  margin: 0 auto;
 }
 
-div.大標題外框{
+div.titleblock{
   /* border: 1px solid black; */
   text-align: left;
+  width: 1200px;
+  margin: 0 auto;
 }
 
-div.大標題{
+div.title{
   /* border: 1px solid orange; */
   display: inline-block;
   height: 50px;
@@ -33,12 +37,12 @@ div.大標題{
   text-align: center;
   vertical-align: middle;
   white-space:normal;
-  margin-left: 15%;
+  margin-left: 50px;
   margin-top: 20px;
   margin-bottom: 20px;
 }
 
-div.一排{
+div.ONE{
   /* border: 1px solid orange; */
   height: 550px;
   text-align: center;
@@ -100,7 +104,7 @@ div.content_block{
   line-height: 30px;
 }
 
-div.外框{
+div.TWO{
   /* border: 1px solid purple; */
   margin: 18px 10px;
   font-size: 20px;
