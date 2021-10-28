@@ -1,0 +1,41 @@
+@import "../css/bobo_headerfooter.css";
+
+body{
+  margin: 0;
+  padding: 0;
+}
+
+#nav_map{
+  color: black;
+}
+
+header.header{
+  background-color: #FABB7C;
+}
+
+ul.foodchoose > li > a.link_style2{
+  background-color: #FABB7C;
+}
+
+ul.foodchoose ul li{
+  background-color: #FABB7C;
+}
+
+ul.foodchoose ul li a.link_style3{
+  background-color: #FABB7C;
+}
+
+ul.journeychoose > li > a.link_style2{
+  background-color: #FABB7C;
+}
+
+div.under{
+  background-color: #FABB7C;
+}
+
+.main{
+  border: 1px solid blue;
+  height: 500px;
+  width: auto;
+  /* white-space: nowrap; */
+}

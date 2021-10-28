@@ -1,0 +1,88 @@
+@import "../css/bobo_headerfooter.css";
+
+body{
+  margin: 0;
+  padding: 0;
+}
+
+#nav_map{
+  color: black;
+}
+
+header.header{
+  background-color: #8C533D;
+}
+
+header.header span{
+  color: #F6EFE3;
+}
+
+ul.foodchoose{
+  background-color: #8C533D;
+}
+
+ul.foodchoose > li{
+  border: 1px solid #F6EFE3;
+}
+
+ul.foodchoose > li > a.link_style2{
+  color: #F6EFE3;
+  background-color: #8C533D;
+}
+
+ul.foodchoose > li > a.link_style2:hover{
+color: #8C533D;
+background-color: #F6EFE3;
+}
+
+ul.foodchoose ul li{
+  border: 1px solid #F6EFE3;
+  color: #F6EFE3;
+  background-color: #8C533D;
+}
+
+ul.foodchoose ul li a.link_style3{
+  color: #F6EFE3;
+  background-color: #8C533D;
+}
+
+ul.foodchoose ul li a.link_style3:hover{
+  color: #8C533D;
+  background-color: #F6EFE3;
+}
+
+ul.journeychoose{
+  background-color: #8C533D;
+}
+
+ul.journeychoose > li{
+  border: 1px solid #F6EFE3;
+}
+
+ul.journeychoose > li > a.link_style2{
+  color: #F6EFE3;
+  background-color: #8C533D;
+}
+
+ul.journeychoose > li > a.link_style2:hover{
+color: #8C533D;
+background-color: #F6EFE3;
+}
+
+div.under{
+  background-color: #8C533D;
+}
+
+div.copy{
+  color: #F6EFE3;
+}
+
+div.icon{
+  color: #F6EFE3;
+}
+
+.main{
+  border: 1px solid blue;
+  height: 500px;
+  width: auto;
+}
