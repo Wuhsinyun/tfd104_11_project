@@ -216,7 +216,8 @@ footer.footer{
 div.under{
   /* border: 1px solid transparent; */
   display: inline-block;
-  width: 1440px;
+  width: 100%;
+  min-width: 1440px;
   margin: 0 auto;
   box-sizing: border-box;
   background-color: #F6EFE3;
