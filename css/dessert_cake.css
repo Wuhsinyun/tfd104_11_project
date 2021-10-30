@@ -17,11 +17,19 @@ ul.foodchoose > li > a.link_style2{
   background-color: #FBC7C3;
 }
 
+ul.foodchoose > li > a.link_style2:hover{
+  background-color: #8C533D;
+}
+
 ul.foodchoose ul li{
   background-color: #FBC7C3;
 }
 
 ul.foodchoose ul li a.link_style3{
+  background-color: #FBC7C3;
+}
+
+#nav_journey{
   background-color: #FBC7C3;
 }
 

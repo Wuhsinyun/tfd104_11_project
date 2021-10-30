@@ -89,7 +89,7 @@ ul.foodchoose > li{
   width: 100%;
 }
 
-ul.foodchoose > li > a.link_style2{
+li a.link_style2{
   /* border: 1px solid orange; */
   display: inline-block;
   text-decoration: none;
@@ -100,12 +100,15 @@ ul.foodchoose > li > a.link_style2{
   background-color: #F6EFE3;
 }
 
-ul.foodchoose > li > a.link_style2:hover{
+li a.link_style2:hover{
   color: #F6EFE3;
   background-color: #8C533D;
 }
 
-
+#nav_journey{
+  color: #8C533D;
+  background-color: #F6EFE3;
+}
 
 ul.foodchoose li ul{
   display: none;

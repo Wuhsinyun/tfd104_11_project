@@ -51,6 +51,11 @@ ul.foodchoose ul li a.link_style3:hover{
   background-color: #F6EFE3;
 }
 
+#nav_journey{
+  color: #F6EFE3;
+  background-color: #8C533D;
+}
+
 ul.journeychoose{
   background-color: #8C533D;
 }
