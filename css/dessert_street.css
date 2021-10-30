@@ -43,7 +43,120 @@ div.under{
 
 .main{
   border: 1px solid blue;
-  height: 500px;
+  height: auto;
   width: auto;
   text-align: center;
+}
+
+div.titleblock{
+  border: 1px solid yellow;
+  height: auto;
+  width: 1200px;
+  margin: 0 auto;
+  text-align: left;
+}
+
+div.streettitle{
+  border: 1px solid black;
+  display: inline-block;
+  height: 50px;
+  width: 230px;
+  font-size: 32px;
+  color: #8C533D;
+  background-image: url("../images/標題色塊.png");
+  background-repeat: no-repeat;
+  background-size: 100% 100%;
+  text-align: center;
+  vertical-align: middle;
+  margin-left: 20px;
+  margin-top: 60px;
+}
+
+div.street1{
+  border: 1px solid red;
+  display: inline-block;
+  height: auto;
+  width: 1200px;
+  margin-top: 20px;
+  margin-bottom: 20px;
+  text-align: left;
+}
+
+article.leftblock{
+  border: 1px solid green;
+  display: inline-block;
+  height: auto;
+  width: 550px;
+  /* margin: 10px; */
+  margin-top: 0;
+  text-align: left;
+  margin-left: 40px;
+}
+
+article.leftblock img{
+  border: 1px solid transparent;
+  border-radius: 10px;
+}
+
+div.content_block_street{
+  border: 1px solid yellow;
+  width: 550px;
+  color: #8C533D;
+  background-color: #FBC7C3;
+  text-align: center;
+  margin-top: 20px;
+  line-height: 30px;
+  white-space:normal;
+  font-size: 24px;
+  border-radius: 10px;
+}
+
+div.block_street{
+  border: 1px solid pink;
+  margin: 18px 10px;
+  /* width: 300px; */
+}
+
+article.rightblock{
+  border: 1px solid green;
+  display: inline-block;
+  height: 430px;
+  width: 530px;
+  margin-top: 0;
+  color: #8C533D;
+  background-color: #FBC7C3;
+  float: right;
+  margin-right: 40px;
+  border-radius: 10px;
+}
+
+div.content_street_top{
+  border: 1px solid yellow;
+  width: 500px;
+  text-align: left;
+  margin: 15px;
+  line-height: 20px;
+  white-space:normal;
+}
+
+div.block_top{
+  border: 1px solid pink;
+  margin: 18px 10px;
+  /* width: 300px; */
+}
+
+div.content_street_bottom{
+  border: 1px solid yellow;
+  width: 500px;
+  text-align: left;
+  margin: 15px;
+  line-height: 20px;
+  white-space:normal;
+  margin-top: 35px;
+}
+
+div.block_bottom{
+  border: 1px solid pink;
+  margin: 18px 10px;
+  /* width: 300px; */
 }

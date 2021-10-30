@@ -632,7 +632,7 @@ a.res img{
 }
 
 div.res_chooseleft2{
-  border: 1px solid black;
+  /* border: 1px solid black; */
   display: inline-block;
   height: auto;
   text-align: left;
@@ -641,7 +641,7 @@ div.res_chooseleft2{
 }
 
 div.res_left2{
-  border: 1px solid green;
+  /* border: 1px solid green; */
   display: inline-block;
   height: auto;
   width: auto;
