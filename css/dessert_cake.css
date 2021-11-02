@@ -137,11 +137,12 @@ div.content_cake_top{
   margin: 15px;
   line-height: 20px;
   white-space:normal;
+  padding: 5px;
 }
 
 div.block_top{
   /* border: 1px solid pink; */
-  margin: 18px 10px;
+  margin: 10px 10px;
   /* width: 300px; */
 }
 
@@ -152,11 +153,12 @@ div.content_cake_bottom{
   margin: 15px;
   line-height: 20px;
   white-space:normal;
-  margin-top: 35px;
+  margin-top: 15px;
 }
 
 div.block_bottom{
   /* border: 1px solid pink; */
-  margin: 18px 10px;
+  margin: 5px 10px;
+  padding: 5px;
   /* width: 300px; */
 }
