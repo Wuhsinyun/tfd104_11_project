@@ -1,4 +1,5 @@
 @import "../css/bobo_headerfooter.css";
+/* @import "../css/foodmap_js.css"; */
 
 body{
   margin: 0;
@@ -15,6 +16,11 @@ body{
   width: auto;
   text-align: center;
   white-space: nowrap;
+}
+
+#myMap {
+  width: 100vw;
+  height: 550px;
 }
 
 div.map{
