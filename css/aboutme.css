@@ -38,7 +38,7 @@ div.關於標題{
 div.關於內文{
   /* border: 1px solid transparent; */
   display: inline-block;
-  height: 400px;
+  height: auto;
   width: 680px;
   margin: 20px 100px;
   color: #8C533D;
@@ -46,7 +46,7 @@ div.關於內文{
   /* font-size: 14px; */
   white-space:nowrap;
   border-radius: 20px;
-  overflow: scroll;
+  /* overflow: scroll; */
 }
 
 div.關於內文::-webkit-scrollbar{

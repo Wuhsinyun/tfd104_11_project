@@ -42,14 +42,14 @@ div.under{
 }
 
 .main{
-  border: 1px solid blue;
+  /* border: 1px solid blue; */
   height: auto;
   width: auto;
   text-align: center;
 }
 
 div.titleblock{
-  border: 1px solid yellow;
+  /* border: 1px solid yellow; */
   height: auto;
   width: 1200px;
   margin: 0 auto;
@@ -57,7 +57,7 @@ div.titleblock{
 }
 
 div.streettitle{
-  border: 1px solid black;
+  /* border: 1px solid black; */
   display: inline-block;
   height: 50px;
   width: 230px;
@@ -73,7 +73,7 @@ div.streettitle{
 }
 
 div.street1{
-  border: 1px solid red;
+  /* border: 1px solid red; */
   display: inline-block;
   height: auto;
   width: 1200px;
@@ -83,7 +83,7 @@ div.street1{
 }
 
 article.leftblock{
-  border: 1px solid green;
+  /* border: 1px solid green; */
   display: inline-block;
   height: auto;
   width: 550px;
@@ -94,12 +94,12 @@ article.leftblock{
 }
 
 article.leftblock img{
-  border: 1px solid transparent;
+  /* border: 1px solid transparent; */
   border-radius: 10px;
 }
 
 div.content_block_street{
-  border: 1px solid yellow;
+  /* border: 1px solid yellow; */
   width: 550px;
   color: #8C533D;
   background-color: #FBC7C3;
@@ -112,13 +112,13 @@ div.content_block_street{
 }
 
 div.block_street{
-  border: 1px solid pink;
+  /* border: 1px solid pink; */
   margin: 18px 10px;
   /* width: 300px; */
 }
 
 article.rightblock{
-  border: 1px solid green;
+  /* border: 1px solid green; */
   display: inline-block;
   height: 430px;
   width: 530px;
@@ -131,7 +131,7 @@ article.rightblock{
 }
 
 div.content_street_top{
-  border: 1px solid yellow;
+  /* border: 1px solid yellow; */
   width: 500px;
   text-align: left;
   margin: 15px;
@@ -140,13 +140,15 @@ div.content_street_top{
 }
 
 div.block_top{
-  border: 1px solid pink;
+  /* border: 1px solid pink; */
   margin: 18px 10px;
+  margin-top: 25px;
+  padding: 10px;
   /* width: 300px; */
 }
 
 div.content_street_bottom{
-  border: 1px solid yellow;
+  /* border: 1px solid yellow; */
   width: 500px;
   text-align: left;
   margin: 15px;
@@ -156,7 +158,8 @@ div.content_street_bottom{
 }
 
 div.block_bottom{
-  border: 1px solid pink;
+  /* border: 1px solid pink; */
   margin: 18px 10px;
+  padding: 10px;
   /* width: 300px; */
 }
