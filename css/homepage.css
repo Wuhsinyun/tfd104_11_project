@@ -21,12 +21,112 @@ body{
 
 #BROWN{
   /* border: 1px solid transparent; */
-  height: 400px;
+  /* height: 400px;
   width: 100%;
   min-width: 1440px;
   top:450px;
-  left:0;
+  left:0; */
 }
+
+div.wrapper{
+  /* border: 1px solid red; */
+  width: 100%;
+  margin-top: -85px;
+  text-align: center;
+  /* height: 400px; */
+}
+
+body > .wrapper {
+    margin: 50px auto;
+    vertical-align: top;
+    text-align: center;
+}
+body > .wrapper > div {
+    width: 100%;
+    min-width: 1440px;
+    height: 500px;
+    overflow: hidden;
+    display: block;
+    margin: 0 auto;
+    position: relative;
+    text-align: center;
+}
+.wave-svg-shape {
+    position: absolute;
+    top: 300;
+    right: : 0;
+    width: 2000px;
+    height: 440px;
+    overflow: hidden;
+    text-align: center;
+/*     transform: translateX(-100px); */
+/*     animation: fillUpSvg 10s ease-in-out infinite; */
+}
+.wave-svg-shape .wave-svg1 {
+    width: 100%;
+    height: auto;
+    overflow: hidden;
+    float: left;
+    margin: 0;
+    animation: waveSvgAnim 6s linear;
+    fill: #8C533Da3;
+    animation-iteration-count: 5;
+    animation-direction: alternate;
+    text-align: center;
+}
+@keyframes waveSvgAnim {
+  0% {
+    transform: translateX(calc(-100px * 2));
+  }
+  100% {
+    transform: translateX(100px * 2);
+  }
+}
+
+
+.wave-svg-shape .wave-svg2 {
+    width: 100%;
+    height: auto;
+    overflow: hidden;
+/*     float: left; */
+    margin: 0;
+    animation: waveSvgAnim 10s linear;
+    fill: white;
+    animation-iteration-count: 5;
+    animation-direction: alternate;
+    text-align: center;
+    margin-top: 70px;
+}
+
+
+.wave-svg-shape .wave-svg3 {
+    width: 100%;
+    height: auto;
+    overflow: hidden;
+/*     float: left; */
+    margin: 0;
+    animation: waveSvgAnim 6s linear;
+    fill: #FBC7C3a3;
+    animation-iteration-count: 5;
+    animation-direction: alternate;
+    text-align: center;
+
+}
+
+.wave-svg-shape .wave-svg4 {
+    width: 100%;
+    height: auto;
+    overflow: hidden;
+/*     float: left; */
+    margin: 0;
+    animation: waveSvgAnim 6s linear;
+    fill: #FABB7Ca3;
+    animation-iteration-count: 5;
+    animation-direction: alternate;
+    text-align: center;
+    margin-top: 10px;
+}
+
 
 div.titleblock{
   /* border: 1px solid yellow; */
@@ -49,18 +149,18 @@ div.title{
   background-repeat: no-repeat;
   background-size: 100% 100%;
   /* margin-left: 15%; */
-  margin-top: -55px;
+  margin-top: -25px;
 }
 
 div.blockA{
-  /* border: 1px solid transparent; */
+  /* border: 1px solid blue; */
   height: 150px;
   width: 1000px;
   margin: 0px auto;
   font-size: 18px;
   color: #F6EFE3;
   line-height: 20px;
-  margin-top: 40px;
+  margin-top: 90px;
 }
 
 div.title2{
@@ -150,14 +250,14 @@ div.blockD img{
 }
 
 div.blockE{
-  /* border: 1px solid transparent; */
+  /* border: 1px solid blue; */
   height: 150px;
   width: 1000px;
   margin: 0px auto;
   font-size: 18px;
   color: #8C533D;
   line-height: 20px;
-  margin-top: 40px;
+  margin-top: 90px;
 }
 
 div.title3{
@@ -171,7 +271,7 @@ div.title3{
   background-repeat: no-repeat;
   background-size: 100% 100%;
   /* margin-left: 15%; */
-  margin-top: 65px;
+  margin-top: 85px;
 }
 
 div.blockF{
@@ -245,14 +345,14 @@ div.blockH img{
 }
 
 div.blockI{
-  /* border: 1px solid transparent; */
+  /* border: 1px solid blue; */
   height: 150px;
   width: 1000px;
   margin: 0px auto;
   font-size: 18px;
   color: #8C533D;
   line-height: 20px;
-  margin-top: 40px;
+  margin-top: 90px;
 }
 
 div.title4{
@@ -266,7 +366,7 @@ div.title4{
   background-repeat: no-repeat;
   background-size: 100% 100%;
   /* margin-left: 15%; */
-  margin-top: 65px;
+  margin-top: 85px;
 }
 
 div.blockJ{
