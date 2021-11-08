@@ -1,9 +1,10 @@
 header{
   border: 1px ;
+  text-align: center;
 }
 
 header.header{
-  /* border: 1px solid black; */
+  border: 1px solid black;
   width: 100%;
   min-width: 1200px;
   text-align: center;
@@ -19,8 +20,9 @@ header.header{
 
 div.nav_block{
   display: inline-block;
-  /* border: 1px solid green; */
-  width: 1440px;
+  border: 1px solid green;
+  width: 100%;
+  max-width: 1400px;
   min-width: 1200px;
   text-align: center;
 }
@@ -40,14 +42,20 @@ header.header nav.nav{
 
 
 header.header nav.nav ul.nav_list{
-  /* border: 1px solid blue; */
+  border: 1px solid blue;
   margin: 0;
   padding: 0;
   font-size: 24px;
 }
 
+/* ul.nav_list > li::after{
+  content: "";
+  display: block;
+  clear: both;
+} */
+
 ul.nav_list li.nav_item{
-  /* border: 1px solid green; */
+  border: 1px solid yellow;
   list-style: none;
   display: inline-block;
   margin-right: 30px;
@@ -221,26 +229,33 @@ ul.journeychoose > li > a.link_style2:hover{
   background-color: #8C533D;
 }
 
+@media screen and (max-width: 575.98px){
+  header.header{
+    width: 100%;
+    max-width: 576px;
+  }
+}
+
 footer.footer{
   /* border: 1px solid transparent; */
   text-align: center;
   display: inline-block;
   width: 100%;
+  max-width: 1400px;
+  box-sizing: border-box;
+  background-color: #F6EFE3;
 }
 
 div.under{
-  /* border: 1px solid transparent; */
+  /* border: 1px solid blue; */
   display: inline-block;
-  width: 100%;
-  min-width: 1440px;
+  width: auto;
   margin: 0 auto;
-  box-sizing: border-box;
-  background-color: #F6EFE3;
   text-align: center;
 }
 
 div.copy{
-  /* border: 1px solid transparent; */
+  /* border: 1px solid red; */
   display: inline-block;
   width: auto;
   text-align: left;
@@ -249,11 +264,12 @@ div.copy{
 }
 
 div.icon{
-  /* border: 1px solid transparent; */
+  /* border: 1px solid black; */
   display: inline-block;
   width: auto;
   text-align: center;
   color: #8C533D;
+    margin-bottom: 20px;
 }
 
 div.icon img{
@@ -262,4 +278,27 @@ div.icon img{
 
 a.link_style{
   color: #8C533D;
+}
+
+@media screen and (max-width: 575.98px){
+  footer.footer{
+    width: 100%;
+    max-width: 576px;
+    margin: 0 auto;
+  }
+  div.under{
+    width: 75%;
+    max-width: 576px;
+    display: block;
+    text-align: center;
+  }
+  div.copy{
+    width: 100%;
+  }
+  div.icon{
+    width: 100%;
+    margin-top: 10px;
+    /* display: block; */
+
+  }
 }

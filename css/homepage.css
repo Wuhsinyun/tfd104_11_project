@@ -37,7 +37,7 @@ div.wrapper{
 }
 
 body > .wrapper {
-    margin: 50px auto;
+    margin: 0px auto;
     vertical-align: top;
     text-align: center;
 }
