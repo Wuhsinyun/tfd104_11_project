@@ -9,13 +9,14 @@ body{
 .main{
   /* border: 1px solid transparent; */
   height: auto;
+  text-align: center;
 }
 
 #AAAA{
   /* border: 1px solid transparent; */
-  height: 400px;
+  height: auto;
   width: 100%;
-  min-width: 1440px;
+  max-width: 1920px;
   left:0;
  }
 
@@ -43,8 +44,8 @@ body > .wrapper {
 }
 body > .wrapper > div {
     width: 100%;
-    min-width: 1440px;
-    height: 500px;
+    max-width: 1920px;
+    height: auto;
     overflow: hidden;
     display: block;
     margin: 0 auto;
@@ -56,7 +57,8 @@ body > .wrapper > div {
     top: 300;
     right: : 0;
     width: 2000px;
-    height: 440px;
+    max-width: 1920px;
+    height: auto;
     overflow: hidden;
     text-align: center;
 /*     transform: translateX(-100px); */
@@ -64,15 +66,17 @@ body > .wrapper > div {
 }
 .wave-svg-shape .wave-svg1 {
     width: 100%;
+    max-width: 1920px;
     height: auto;
     overflow: hidden;
     float: left;
     margin: 0;
-    animation: waveSvgAnim 6s linear;
+    animation: waveSvgAnim 6s ease-out;
     fill: #8C533Da3;
     animation-iteration-count: 5;
     animation-direction: alternate;
     text-align: center;
+    margin-top: 10px;
 }
 @keyframes waveSvgAnim {
   0% {
@@ -86,45 +90,64 @@ body > .wrapper > div {
 
 .wave-svg-shape .wave-svg2 {
     width: 100%;
+    max-width: 1920px;
     height: auto;
     overflow: hidden;
 /*     float: left; */
     margin: 0;
-    animation: waveSvgAnim 10s linear;
+    animation: waveSvgAnim 10s ease-in;
     fill: white;
     animation-iteration-count: 5;
     animation-direction: alternate;
     text-align: center;
-    margin-top: 70px;
+    margin-top: 120px;
 }
 
 
 .wave-svg-shape .wave-svg3 {
     width: 100%;
+    max-width: 1920px;
     height: auto;
     overflow: hidden;
 /*     float: left; */
     margin: 0;
-    animation: waveSvgAnim 6s linear;
+    animation: waveSvgAnim 6s ease-out;
     fill: #FBC7C3a3;
     animation-iteration-count: 5;
     animation-direction: alternate;
     text-align: center;
-
+    margin-top: 10px;
 }
 
 .wave-svg-shape .wave-svg4 {
     width: 100%;
+    max-width: 1920px;
     height: auto;
     overflow: hidden;
 /*     float: left; */
     margin: 0;
-    animation: waveSvgAnim 6s linear;
+    animation: waveSvgAnim 6s ease-out;
     fill: #FABB7Ca3;
     animation-iteration-count: 5;
     animation-direction: alternate;
     text-align: center;
     margin-top: 10px;
+}
+
+@media screen and (max-width: 575.98px){
+  .wave-svg-shape .wave-svg1{
+    /* max-width: 1200px; */
+  }
+  .wave-svg-shape .wave-svg2{
+    margin-top: 100px;
+  }
+  .wave-svg-shape .wave-svg3{
+    /* max-width: 1200px; */
+
+  }
+  .wave-svg-shape .wave-svg4{
+    /* max-width: 1200px; */
+  }
 }
 
 
@@ -139,8 +162,8 @@ div.titleblock{
 div.title{
   /* border: 1px solid transparent; */
   display: inline-block;
-  height: 50px;
-  width: 230px;
+  height: auto;
+  width: auto;
   font-size: 32px;
   color: #8C533D;
   text-align: center;
@@ -150,24 +173,28 @@ div.title{
   background-size: 100% 100%;
   /* margin-left: 15%; */
   margin-top: -25px;
+  padding: 10px;
 }
 
 div.blockA{
   /* border: 1px solid blue; */
-  height: 150px;
+  /* display: inline-block; */
+  height: auto;
   width: 1000px;
   margin: 0px auto;
   font-size: 18px;
   color: #F6EFE3;
   line-height: 20px;
   margin-top: 90px;
+  /* margin-bottom: 30px; */
+  /* padding-bottom: 40px; */
 }
 
 div.title2{
-  /* border: 1px solid transparent; */
+  /* border: 1px solid red; */
   display: inline-block;
-  height: 35px;
-  width: 120px;
+  height: auto;
+  width: auto;
   font-size: 24px;
   color: #8C533D;
   text-align: center;
@@ -176,26 +203,34 @@ div.title2{
   background-repeat: no-repeat;
   background-size: 100% 100%;
   /* margin-left: 15%; */
-  margin-top: 120px;
+  margin-top: 150px;
+  padding: 10px 30px;
+}
+
+article.ATC{
+  /* border: 1px solid orange; */
+  display: inline-block;
+  text-align: center;
+  margin-right: 10px;
 }
 
 div.blockB{
-  /* border: 1px solid transparent; */
+  /* border: 1px solid red; */
   height: auto;
   width: auto;
   text-align: center;
   margin-top: 40px;
-  white-space:nowrap;
+  white-space: nowrap;
 }
 
 div.blockB img{
-  /* border: 1px solid transparent; */
+  /* border: 1px solid black; */
   border-radius: 20px;
-  margin-right: 25px;
+  /* margin-right: 25px; */
 }
 
 div.blockC{
-  /* border: 1px solid transparent; */
+  /* border: 1px solid blue; */
   height: auto;
   width: auto;
   text-align: center;
@@ -204,13 +239,13 @@ div.blockC{
 }
 
 div.blockD{
-  /* border: 1px solid transparent; */
+  /* border: 1px solid yellow; */
   display: inline-block;
   height: auto;
   width: 292px;
   color: #F6EFE3;
   background-color: #8C533D;
-  margin-right: 25px;
+  /* margin-right: 25px; */
   text-align: left;
   font-size: 12px;
   line-height: 20px;
@@ -233,9 +268,9 @@ div.blockD img{
 
 #BBBB{
   /* border: 1px solid transparent; */
-  height: 400px;
+  height: auto;
   width: 100%;
-  min-width: 1440px;
+  max-width: 1920px;
   margin-top: 50px;
   left:0;
  }
@@ -251,7 +286,7 @@ div.blockD img{
 
 div.blockE{
   /* border: 1px solid blue; */
-  height: 150px;
+  height: auto;
   width: 1000px;
   margin: 0px auto;
   font-size: 18px;
@@ -260,22 +295,8 @@ div.blockE{
   margin-top: 90px;
 }
 
-div.title3{
-  /* border: 1px solid transparent; */
-  height: 35px;
-  width: 120px;
-  font-size: 24px;
-  color: #8C533D;
-  text-align: center;
-  background-image: url("../images/標題色塊.png");
-  background-repeat: no-repeat;
-  background-size: 100% 100%;
-  /* margin-left: 15%; */
-  margin-top: 85px;
-}
-
 div.blockF{
-  /* border: 1px solid transparent; */
+  /* border: 1px solid red; */
   height: auto;
   width: auto;
   text-align: center;
@@ -284,13 +305,13 @@ div.blockF{
 }
 
 div.blockF img{
-  /* border: 1px solid transparent; */
+  /* border: 1px solid black; */
   border-radius: 20px;
-  margin-right: 25px;
+  /* margin-right: 25px; */
 }
 
 div.blockG{
-  /* border: 1px solid transparent; */
+  /* border: 1px solid blue; */
   height: auto;
   width: auto;
   text-align: center;
@@ -299,13 +320,13 @@ div.blockG{
 }
 
 div.blockH{
-  /* border: 1px solid transparent; */
+  /* border: 1px solid yellow; */
   display: inline-block;
   height: auto;
   width: 292px;
   color: #8C533D;
   background-color: #FBC7C3;
-  margin-right: 25px;
+  /* margin-right: 25px; */
   text-align: left;
   font-size: 12px;
   line-height: 20px;
@@ -328,9 +349,9 @@ div.blockH img{
 
 #CCCC{
   /* border: 1px solid transparent; */
-  height: 400px;
+  height: auto;
   width: 100%;
-  min-width: 1440px;
+  max-width: 1920px;
   margin-top: 50px;
   left:0;
  }
@@ -344,33 +365,8 @@ div.blockH img{
   left:0;
 }
 
-div.blockI{
-  /* border: 1px solid blue; */
-  height: 150px;
-  width: 1000px;
-  margin: 0px auto;
-  font-size: 18px;
-  color: #8C533D;
-  line-height: 20px;
-  margin-top: 90px;
-}
-
-div.title4{
-  /* border: 1px solid transparent; */
-  height: 35px;
-  width: 120px;
-  font-size: 24px;
-  color: #8C533D;
-  text-align: center;
-  background-image: url("../images/標題色塊.png");
-  background-repeat: no-repeat;
-  background-size: 100% 100%;
-  /* margin-left: 15%; */
-  margin-top: 85px;
-}
-
 div.blockJ{
-  /* border: 1px solid transparent; */
+  /* border: 1px solid blue; */
   height: auto;
   width: auto;
   text-align: center;
@@ -379,13 +375,13 @@ div.blockJ{
 }
 
 div.blockJ img{
-  /* border: 1px solid transparent; */
+  /* border: 1px solid red; */
   border-radius: 20px;
-  margin-right: 25px;
+  /* margin-right: 25px; */
 }
 
 div.blockK{
-  /* border: 1px solid transparent; */
+  /* border: 1px solid black; */
   height: auto;
   width: auto;
   text-align: center;
@@ -394,13 +390,13 @@ div.blockK{
 }
 
 div.blockL{
-  /* border: 1px solid transparent; */
+  /* border: 1px solid yellow; */
   display: inline-block;
   height: auto;
   width: 292px;
   color: #8C533D;
   background-color: #FABB7C;
-  margin-right: 25px;
+  /* margin-right: 25px; */
   text-align: left;
   font-size: 12px;
   line-height: 20px;
@@ -420,6 +416,46 @@ div.blockL img{
   float: right;
   margin-top: 10px;
 }
+
+@media screen and (max-width: 575.98px){
+  div.title{
+    margin-top: 10px;
+    font-size: 24px;
+  }
+  div.title2{
+    font-size: 18px;
+  }
+  div.blockA{
+    width: 85%;
+    max-width: 600px;
+    margin-top: 50px;
+    font-size: 14px;
+    text-align: left;
+  }
+  div.blockE{
+    width: 85%;
+    max-width: 600px;
+    font-size: 14px;
+    text-align: left;
+  }
+
+  article.ATC{
+    margin-right: 0;
+  }
+
+  div.blockD{
+    /* width: 80%; */
+    /* font-size: 8px; */
+  }
+  div.blockD span{
+    /* border: 1px solid transparent; */
+    /* font-size: 12px; */
+  }
+}
+
+
+
+
 
 div.title5{
   /* border: 1px solid transparent; */
