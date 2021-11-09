@@ -225,14 +225,14 @@ header.header{
   }
 
   /* 隱藏 checkbox */
-  /* input {
+  input {
     display: none;
-  } */
+  }
 
   /* 漢堡按鈕 */
-  /* label {
+  label {
     display: none;
-  } */
+  }
 }
 
 /* 隱藏 checkbox */
@@ -250,7 +250,6 @@ label {
   cursor: pointer;
   /* vertical-align: middle; */
 }
-
 
 
 @media screen and (max-width: 992px){
