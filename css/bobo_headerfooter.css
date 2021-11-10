@@ -18,7 +18,25 @@ header.header{
   /* text-align: center; */
 }
 
-@media screen and (min-width: 991.98px){
+
+/* 隱藏 checkbox */
+input {
+  display: none;
+}
+
+/* 漢堡按鈕 */
+label {
+  /* border: 1px solid red; */
+  display: none;
+  padding: 15px;
+  float: right;
+  padding-right: 40px;
+  line-height: 20px;
+  cursor: pointer;
+  /* vertical-align: middle; */
+}
+
+@media (min-width: 991.98px){
 /* label{
     display: none;
   } */
@@ -235,26 +253,8 @@ header.header{
   } */
 }
 
-/* 隱藏 checkbox */
-input {
-  display: none;
-}
 
-/* 漢堡按鈕 */
-label {
-  /* border: 1px solid red; */
-  display: none;
-  padding: 15px;
-  float: right;
-  padding-right: 40px;
-  line-height: 20px;
-  cursor: pointer;
-  /* vertical-align: middle; */
-}
-
-
-
-@media screen and (max-width: 992px){
+@media (max-width: 992px){
   div.nav_block{
     display: inline-block;
     /* border: 1px solid green; */
@@ -268,7 +268,12 @@ label {
   }
   header.header nav.nav{
     border: 1px solid transparent;
-    display: none;
+    /* display: none; */
+    position: fixed;
+    top: -1000px;
+    opacity: 0;
+    z-index: -1;
+    transition: all ease 1s;
     /* float: right; */
     /* margin-top: 5px; */
   }
@@ -474,7 +479,9 @@ label {
   }
 
   input:checked ~ nav.nav{
-    display: block;
+    /* display: block; */
+    opacity: 1;
+    position: static;
   }
 
 }

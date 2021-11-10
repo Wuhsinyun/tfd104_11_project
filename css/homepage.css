@@ -6,6 +6,10 @@ body{
   text-align: center;
 }
 
+img{
+  max-width: 100%;
+}
+
 .main{
   /* border: 1px solid transparent; */
   height: auto;
@@ -34,6 +38,7 @@ div.wrapper{
   width: 100%;
   margin-top: -85px;
   text-align: center;
+  overflow: hidden;
   /* height: 400px; */
 }
 
@@ -41,43 +46,125 @@ body > .wrapper {
     margin: 0px auto;
     vertical-align: top;
     text-align: center;
+    overflow: hidden;
 }
 body > .wrapper > div {
+    /* border: 1px solid green; */
     width: 100%;
     max-width: 1920px;
     height: auto;
-    overflow: hidden;
+    /* overflow: hidden; */
     display: block;
     margin: 0 auto;
     position: relative;
     text-align: center;
 }
+
+div.of{
+  /* border: 1px solid yellow; */
+  width: 100%;
+  max-width: 1920px;
+  position: absolute;
+  /* position: fixed; */
+  /* right: 0; */
+  overflow: hidden;
+  height: 380px;
+  margin: 0;
+
+}
+
+div.of2{
+  /* border: 1px solid pink; */
+  width: 100%;
+  max-width: 1920px;
+  position: absolute;
+  /* position: fixed; */
+  /* right: 0; */
+  overflow: hidden;
+  height: 300px;
+  margin: 0;
+
+}
+
 .wave-svg-shape {
+    /* border: 1px solid black; */
     position: absolute;
     top: 300;
-    right: : 0;
-    width: 2000px;
-    max-width: 1920px;
+    right: -150px;
+    width: 150%;
+    max-width: 2400px;
     height: auto;
-    overflow: hidden;
+    transform: translateX(-100px);
+    animation: fillUpSvg 10s ease-in-out infinite;
+    margin: 0 auto;
     text-align: center;
-/*     transform: translateX(-100px); */
-/*     animation: fillUpSvg 10s ease-in-out infinite; */
 }
+
 .wave-svg-shape .wave-svg1 {
-    width: 100%;
-    max-width: 1920px;
-    height: auto;
-    overflow: hidden;
-    float: left;
+    /* display: fixed; */
+    /* border: 1px solid red; */
+    width: 110%;
+    /* max-width: 1920px; */
+    /* height: 500px; */
+    /* overflow: hidden; */
+    /* float: left; */
     margin: 0;
     animation: waveSvgAnim 6s ease-out;
-    fill: #8C533Da3;
     animation-iteration-count: 5;
     animation-direction: alternate;
     text-align: center;
     margin-top: 10px;
+    fill: #8C533Da3;
 }
+
+.wave-svg-shape .wave-svg2 {
+    /* border: 1px solid blue; */
+    width: 110%;
+    /* max-width: 1920px; */
+    /* height: auto; */
+    /* overflow: hidden; */
+/*     float: left; */
+    margin: 0;
+    animation: waveSvgAnim 10s ease-in;
+    fill: white;
+    /* fill: black; */
+    animation-iteration-count: 5;
+    animation-direction: alternate;
+    text-align: center;
+    margin-top: 120px;
+}
+
+
+.wave-svg-shape .wave-svg3 {
+  /* display: fixed; */
+  /* border: 1px solid orange; */
+  width: 110%;
+  /* max-width: 1920px; */
+  /* height: 500px; */
+  /* overflow: hidden; */
+  /* float: left; */
+  margin: 0;
+  animation: waveSvgAnim 6s ease-out;
+  animation-iteration-count: 5;
+  animation-direction: alternate;
+  text-align: center;
+  margin-top: 10px;
+  fill: #FBC7C3a3;
+}
+
+.wave-svg-shape .wave-svg4 {
+    width: 110%;
+    /* height: auto; */
+/*     float: left; */
+    margin: 0;
+    animation: waveSvgAnim 6s ease-out;
+    animation-iteration-count: 5;
+    animation-direction: alternate;
+    text-align: center;
+    margin-top: 10px;
+    fill: #FABB7Ca3;
+}
+
 @keyframes waveSvgAnim {
   0% {
     transform: translateX(calc(-100px * 2));
@@ -87,52 +174,6 @@ body > .wrapper > div {
   }
 }
 
-
-.wave-svg-shape .wave-svg2 {
-    width: 100%;
-    max-width: 1920px;
-    height: auto;
-    overflow: hidden;
-/*     float: left; */
-    margin: 0;
-    animation: waveSvgAnim 10s ease-in;
-    fill: white;
-    animation-iteration-count: 5;
-    animation-direction: alternate;
-    text-align: center;
-    margin-top: 120px;
-}
-
-
-.wave-svg-shape .wave-svg3 {
-    width: 100%;
-    max-width: 1920px;
-    height: auto;
-    overflow: hidden;
-/*     float: left; */
-    margin: 0;
-    animation: waveSvgAnim 6s ease-out;
-    fill: #FBC7C3a3;
-    animation-iteration-count: 5;
-    animation-direction: alternate;
-    text-align: center;
-    margin-top: 10px;
-}
-
-.wave-svg-shape .wave-svg4 {
-    width: 100%;
-    max-width: 1920px;
-    height: auto;
-    overflow: hidden;
-/*     float: left; */
-    margin: 0;
-    animation: waveSvgAnim 6s ease-out;
-    fill: #FABB7Ca3;
-    animation-iteration-count: 5;
-    animation-direction: alternate;
-    text-align: center;
-    margin-top: 10px;
-}
 
 @media screen and (max-width: 575.98px){
   .wave-svg-shape .wave-svg1{
@@ -208,7 +249,7 @@ div.title2{
 }
 
 article.ATC{
-  /* border: 1px solid orange; */
+  /* border: 1px solid green; */
   display: inline-block;
   text-align: center;
   margin-right: 10px;
@@ -452,23 +493,29 @@ div.blockL img{
     /* font-size: 12px; */
   }
 }
+@media (min-width: 576px) and (max-width: 991.98px){
+
+}
 
 
 
 
 
 div.title5{
-  /* border: 1px solid transparent; */
-  height: 35px;
-  width: 120px;
+  /* border: 1px solid red; */
+  display: inline-block;
+  height: auto;
+  width: auto;
   font-size: 24px;
   color: #8C533D;
   text-align: center;
+  vertical-align: middle;
   background-image: url("../images/標題色塊.png");
   background-repeat: no-repeat;
   background-size: 100% 100%;
-  margin-left: 15%;
-  margin-top: 50px;
+  /* margin-left: 15%; */
+  margin-top: 150px;
+  padding: 10px 30px;
 }
 
 div.map{
