@@ -181,7 +181,7 @@ div.of2{
   }
   div.of{
     height: 580px;
-    /* margin-top: 150px; */
+    margin-top: 25px;
     /* max-width: 1000px; */
     /* width: 100%; */
     /* height:600px; */
@@ -191,6 +191,7 @@ div.of2{
   }
   div.of2{
     height: 380px;
+    margin-top: 20px;
     /* max-width: 1000px; */
   }
   .wave-svg-shape{
