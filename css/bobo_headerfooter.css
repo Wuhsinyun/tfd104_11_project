@@ -490,7 +490,7 @@ label {
 
 
 footer.footer{
-  /* border: 1px solid transparent; */
+  /* border: 1px solid black; */
   text-align: center;
   display: inline-block;
   width: 100%;
@@ -512,7 +512,7 @@ div.copy{
   display: inline-block;
   width: auto;
   text-align: left;
-  margin: 40px;
+  margin: 40px 0;
   color: #8C533D;
 }
 
