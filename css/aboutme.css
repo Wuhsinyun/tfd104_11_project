@@ -9,38 +9,48 @@ body{
   color: black;
 }
 
+img{
+  max-width: 100%;
+}
+
 .main{
-  /* border: 1px solid transparent; */
+  /* border: 1px solid blue; */
+  width: 100%;
+  max-width: 1920px;
   height: auto;
-  width: auto;
+  text-align: center;
 }
 
 div.關於{
-  /* border: 1px solid transparent; */
+  /* border: 1px solid red; */
   display: inline-block;
-  height: auto;
   width: 100%;
+  max-width: 1920px;
+  height: auto;
   text-align: center;
   margin-top: 20px;
 }
 
 div.關於標題{
-  /* border: 1px solid transparent; */
+  /* border: 1px solid green; */
   display: inline-block;
   height: auto;
-  width: 100px;
+  width: auto;
   color: #8C533D;
   background-color: #F6EFE3;
   border-radius: 20px;
   font-size: 20px;
+  margin: 0 auto;
+  padding: 0 5px;
 }
 
 div.關於內文{
-  /* border: 1px solid transparent; */
+  /* border: 1px solid yellow; */
   display: inline-block;
   height: auto;
   width: 680px;
-  margin: 20px 100px;
+  /* margin: 20px 100px; */
+  margin-top: 20px;
   color: #8C533D;
   background-color: #F6EFE3;
   /* font-size: 14px; */
@@ -119,4 +129,19 @@ div.回答 span{
   border-radius: 20px;
   opacity: .8;
   padding: 2px 10px;
+}
+
+@media (max-width: 767.98px){
+  div.關於內文{
+    width: 100%;
+    font-size: 8px;
+  }
+  div.問題框框{
+    margin: 10px;
+    overflow-x: scroll;
+  }
+  div.回答 img{
+    height: 30px;
+    width: 30px;
+  }
 }
