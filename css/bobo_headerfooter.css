@@ -20,7 +20,7 @@ header.header{
 
 
 /* 隱藏 checkbox */
-nav.input {
+div.nav_block input {
   display: none;
 }
 
@@ -50,6 +50,9 @@ label {
   .logo{
       /* border: 1px solid red; */
     margin-left: 0px;
+  }
+  nav.input {
+    display: none;
   }
   header.header nav.nav{
     /* border: 1px solid black; */
@@ -243,9 +246,9 @@ label {
   }
 
   /* 隱藏 checkbox */
-  /* input {
+  input {
     display: none;
-  } */
+  }
 
   /* 漢堡按鈕 */
   /* label {
@@ -474,7 +477,7 @@ label {
     background-color: #8C533D;
   }
 
-  label{
+  label {
     display: block;
   }
 
@@ -486,7 +489,7 @@ label {
 
 }
 
-
+/* ==================== footer  ===================*/
 
 
 footer.footer{

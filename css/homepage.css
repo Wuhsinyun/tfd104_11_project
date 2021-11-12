@@ -11,13 +11,13 @@ img{
 }
 
 .main{
-  /* border: 1px solid transparent; */
+  /* border: 1px solid blue; */
   height: auto;
   text-align: center;
 }
 
 #AAAA{
-  /* border: 1px solid transparent; */
+  /* border: 1px solid blue; */
   height: auto;
   width: auto;
   /* width: 100%; */
@@ -191,11 +191,7 @@ div.of2{
     /* height: 3000px; */
   }
   div.of2{
-<<<<<<< HEAD
     height: 580px;
-=======
-    height: 480px;
->>>>>>> 42d2a6b5daabe9febb611ba0fca53040f060e827
     margin-top: 20px;
     /* max-width: 1000px; */
   }
@@ -224,7 +220,8 @@ div.of2{
 div.titleblock{
   /* border: 1px solid yellow; */
   height: auto;
-  width: 1200px;
+  width: 100%;
+  max-width: 1920px;
   margin: 0 auto;
   text-align: left;
 }
@@ -625,7 +622,7 @@ div.mapchoose ul.map_list{
 }
 
 ul.map_list li.mapmap{
-  /* border: 1px solid transparent; */
+  border: 1px solid blue;
   list-style: none;
   display: inline-block;
   /* text-align: center; */
@@ -687,6 +684,31 @@ button.ccc:hover{
   background-color: #F6EFE3;
   color: #8C533D;
 }
+
+@media screen and (max-width: 575.98px){
+  div.mapchoose{
+    width: 80%;
+    /* padding: 0; */
+  }
+  ul.map_list{
+    padding-left: 0;
+  }
+  ul.map_list li.mapmap{
+    margin-right: 5px;
+    /* padding: 0; */
+  }
+  button.aaa{
+    font-size: 14px;
+  }
+  button.bbb{
+    font-size: 14px;
+  }
+  button.ccc{
+    font-size: 14px;
+  }
+}
+
+
 
 div.call{
   /* border: 1px solid gray; */
@@ -755,7 +777,7 @@ input.bar{
   width: 70%;
   font-size: 14px;
   color: #8C533D;
-  /* display: inline-block; */
+  display: inline-block;
 }
 
 .bar{
