@@ -20,7 +20,7 @@ header.header{
 
 
 /* 隱藏 checkbox */
-input {
+nav.input {
   display: none;
 }
 
