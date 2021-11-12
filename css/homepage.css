@@ -19,8 +19,9 @@ img{
 #AAAA{
   /* border: 1px solid transparent; */
   height: auto;
-  width: 100%;
-  max-width: 1920px;
+  width: auto;
+  /* width: 100%; */
+  /* max-width: 1920px; */
   left:0;
  }
 
@@ -190,7 +191,7 @@ div.of2{
     /* height: 3000px; */
   }
   div.of2{
-    height: 380px;
+    height: 480px;
     margin-top: 20px;
     /* max-width: 1000px; */
   }
@@ -542,6 +543,26 @@ div.title5{
   padding: 10px 30px;
 }
 
+div.map_block{
+  /* border: 1px solid red; */
+  text-align: center;
+  margin: 0 auto;
+}
+
+#myMap2 {
+  width: 60vw;
+  height: 300px;
+  /* text-align: center; */
+  margin: 0 auto;
+}
+
+@media screen and (max-width: 575.98px){
+  #myMap2{
+    height: 200px;
+  }
+}
+
+
 div.map{
   /* border: 1px solid transparent; */
   margin-top: 20px;
@@ -549,7 +570,7 @@ div.map{
 }
 
 div.mapchoose{
-  /* border: 1px solid transparent; */
+  border: 1px solid red;
   width: 100%;
   display: inline-block;
   text-align: center;
@@ -635,6 +656,10 @@ div.call{
   white-space:nowrap;
 }
 
+div.call img{
+  /* border: 1px solid yellow; */
+}
+
 div.callme{
   /* border: 1px solid purple; */
   width: 350px;
@@ -677,10 +702,43 @@ div.callme span{
   font-size: 24px;
 }
 
+input.small{
+  /* border: 1px solid yellow; */
+}
+
+input.big{
+  /* border: 1px solid blue; */
+}
+
+input.bar{
+  /* border: 1px solid green; */
+  width: 70%;
+  font-size: 14px;
+  color: #8C533D;
+  /* display: inline-block; */
+}
+
 .bar{
   /* border: 1px solid green; */
   width: 70%;
   font-size: 14px;
   color: #8C533D;
   /* background-color: #8C533D; */
+}
+
+@media screen and (max-width: 575.98px){
+  div.call img{
+    /* transform: scale(0.6); */
+    height: 150px;
+    width: 125px;
+    vertical-align: super;
+  }
+  div.callme{
+    margin-left: 0;
+    width: 210px;
+    height: 180px;
+  }
+  div.callme form{
+    width: 170px;
+  }
 }
