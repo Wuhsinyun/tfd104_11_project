@@ -9,10 +9,15 @@ body{
   color: black;
 }
 
+img{
+  max-width: 100%;
+}
+
 .main{
   /* border: 1px solid blue; */
-  height: 800px;
-  width: 1440px;
+  height: auto;
+  width: 100%;
+  max-width: 1920px;
   text-align: center;
   margin: 0 auto;
   background-image: url("../images/news_background.jpg");
@@ -40,7 +45,8 @@ body{
 div.titleblock{
   /* border: 1px solid yellow; */
   height: auto;
-  width: 1200px;
+  width: 100%;
+  max-width: 1920px;
   margin: 0 auto;
   margin-top: 20px;
   text-align: left;
@@ -75,7 +81,7 @@ article.box1{
   height: auto;
   width: 387px;
   white-space:normal;
-  margin: 20px;
+  margin: 10px;
   margin-top: 50px;
   font-size: 14px;
 }
@@ -86,7 +92,7 @@ article.box2{
   height: auto;
   width: 387px;
   white-space:normal;
-  margin: 20px;
+  margin: 10px;
   margin-top: 50px;
   font-size: 14px;
   position: relative;
@@ -99,7 +105,7 @@ article.box3{
   height: auto;
   width: 387px;
   white-space:normal;
-  margin: 20px;
+  margin: 10px;
   margin-top: 50px;
   font-size: 14px;
   position: relative;
@@ -112,7 +118,7 @@ article.box5{
   height: auto;
   width: 387px;
   white-space:normal;
-  margin: 20px;
+  margin: 10px;
   margin-top: 50px;
   font-size: 14px;
   position: relative;
@@ -125,7 +131,7 @@ article.box6{
   height: auto;
   width: 387px;
   white-space:normal;
-  margin: 20px;
+  margin: 10px;
   margin-top: 50px;
   font-size: 14px;
   position: relative;
@@ -138,7 +144,7 @@ article.box8{
   height: auto;
   width: 387px;
   white-space:normal;
-  margin: 20px;
+  margin: 10px;
   margin-top: 50px;
   font-size: 14px;
   position: relative;
@@ -151,7 +157,7 @@ article.box9{
   height: auto;
   width: 387px;
   white-space:normal;
-  margin: 20px;
+  margin: 10px;
   margin-top: 50px;
   font-size: 14px;
   position: relative;
@@ -188,4 +194,88 @@ div.title{
   text-align: center;
   margin-top: 10px;
   /* margin: 0 auto; */
+}
+
+/* @media (m1n-width: 768px) and (max-width: 1049.98px){
+  .main{
+    max-width: 1200px;
+    background-size: 100% auto;
+    background-repeat: repeat-y;
+  }
+  article.box1{
+    width: 200px;
+    margin: 0 auto;
+    font-size: 12px;
+  }
+  article.box2{
+    width: 200px;
+    margin: 10px;
+    font-size: 12px;
+  }
+  article.box3{
+    width: 50%;
+    margin: 10px;
+    font-size: 12px;
+  }
+  div.title{
+    font-size: 16px;
+  }
+} */
+@media (max-width: 767.98px){
+  .main{
+    max-width: 800px;
+    background-size: 100% auto;
+    background-repeat: repeat-y;
+  }
+  article.box1{
+    display: block;
+    width: 300px;
+    margin: 0 auto;
+    font-size: 10px;
+  }
+  article.box2{
+    /* display: block; */
+    width: 300px;
+    margin: 10px;
+    position: static;
+    font-size: 10px;
+  }
+  article.box3{
+    /* display: block; */
+    width: 300px;
+    margin: 10px;
+    position: static;
+    font-size: 10px;
+  }
+  article.box5{
+    /* display: block; */
+    width: 300px;
+    margin: 10px;
+    position: static;
+    font-size: 10px;
+  }
+  article.box6{
+    /* display: block; */
+    width: 300px;
+    margin: 10px;
+    position: static;
+    font-size: 10px;
+  }
+  article.box8{
+    /* display: block; */
+    width: 300px;
+    margin: 10px;
+    position: static;
+    font-size: 10px;
+  }
+  article.box9{
+    /* display: block; */
+    width: 300px;
+    margin: 10px;
+    position: static;
+    font-size: 10px;
+  }
+  div.title{
+    font-size: 14px;
+  }
 }
