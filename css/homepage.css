@@ -69,9 +69,8 @@ div.of{
   /* position: fixed; */
   /* right: 0; */
   overflow: hidden;
-  height: 380px;
+  height: 480px;
   margin: 0;
-
 }
 
 div.of2{
@@ -595,7 +594,7 @@ div.map_block{
 
 @media screen and (max-width: 575.98px){
   #myMap2{
-    height: 200px;
+    width: 90vw;
   }
 }
 

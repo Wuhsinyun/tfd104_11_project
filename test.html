@@ -7,6 +7,11 @@
     <meta name="description" content="網頁簡短描述，儘量在 70 字以內。">
     <meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=yes">
     <link rel="stylesheet" href="./css/test.css">
+    <link rel="stylesheet" href="/css/slick.css">
+    <link rel="stylesheet" href="/css/slick-theme.css">
+    <!-- <link rel='stylesheet' href='https://cdnjs.cloudflare.com/ajax/libs/bootstrap/4.6.0/css/bootstrap.css' />
+    <link rel='stylesheet' href='https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.8.1/slick.css' />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.8.1/slick-theme.min.css"> -->
   </head>
   <body>
     <header class="header">
@@ -56,6 +61,15 @@
     </header>
 
     <main class="main">
+      <ul class="container">
+        <li class="sna_slider"><img src="/images/sna_小赤佬.png"  alt=""></li>
+        <li class="sna_slider"><img src="/images/sna_王式.png"  alt=""></li>
+        <li class="sna_slider"><img src="/images/sna_永記.png"  alt=""></li>
+        <li class="sna_slider"><img src="/images/sna_走路蘇.png"  alt=""></li>
+        <li class="sna_slider"><img src="/images/sna_唐家.png"  alt=""></li>
+        <li class="sna_slider"><img src="/images/sna_絕鼎.png"  alt=""></li>
+      </ul>
+
 
     </main>
 
@@ -79,5 +93,75 @@
         </div>
       </div>
     </footer>
+
+
+
+    <script src="js/jquery-3.6.0.min.js"></script>
+    <script src="js/slick.js"></script>
+    <script>
+      // $('.container').slick({
+      //   dots: true,
+      // });
+      $('.container').slick({
+        dots: true,
+        centerMode: true,
+        centerPadding: '60px',
+        slidesToShow: 3,
+        responsive: [
+          {
+            breakpoint: 768,
+            settings: {
+              arrows: false,
+              centerMode: true,
+              centerPadding: '40px',
+              slidesToShow: 3
+            }
+          },
+          {
+            breakpoint: 480,
+            settings: {
+              arrows: false,
+              centerMode: true,
+              centerPadding: '40px',
+              slidesToShow: 1
+            }
+          }
+        ]
+      });
+    </script>
+    <!-- <script src='https://cdnjs.cloudflare.com/ajax/libs/jquery/3.5.1/jquery.js'></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.8.1/slick.js"></script> -->
+    <!-- <script>
+    $(document).ready(function() {
+      $('.center').slick({
+        centerMode: true,
+        centerPadding: '60px',
+        slidesToShow: 3,
+        speed:1500,
+        index: 2,
+        responsive: [
+          {
+            breakpoint: 768,
+            settings: {
+              arrows: false,
+              centerMode: true,
+              centerPadding: '40px',
+              slidesToShow: 3
+            }
+          },
+          {
+            breakpoint: 480,
+            settings: {
+              arrows: false,
+              centerMode: true,
+              centerPadding: '40px',
+              slidesToShow: 1
+            }
+          }
+        ]
+      });
+    });
+    </script> -->
+
   </body>
 </html>

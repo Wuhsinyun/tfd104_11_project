@@ -24,7 +24,7 @@ header.header{
   } */
   div.nav_block{
     display: inline-block;
-    border: 1px solid green;
+    /* border: 1px solid green; */
     width: 100%;
     max-width: 1920px;
     text-align: center;
@@ -34,7 +34,7 @@ header.header{
     margin-left: 0px;
   }
   header.header nav.nav{
-    border: 1px solid black;
+    /* border: 1px solid black; */
     display: inline-block;
     float: right;
     margin-top: 5px;
@@ -43,14 +43,14 @@ header.header{
 
 
   header.header nav.nav ul.nav_list{
-    border: 1px solid blue;
+    /* border: 1px solid blue; */
     margin: 0;
     padding: 0;
     font-size: 24px;
   }
 
   ul.nav_list li.nav_item{
-    border: 1px solid yellow;
+    /* border: 1px solid yellow; */
     list-style: none;
     display: inline-block;
     margin-right: 15px;
