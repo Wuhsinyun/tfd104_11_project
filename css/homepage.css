@@ -590,6 +590,7 @@ div.map_block{
   height: 300px;
   /* text-align: center; */
   margin: 0 auto;
+  margin-top: 20px;
 }
 
 @media screen and (max-width: 575.98px){
