@@ -8,6 +8,8 @@
     <meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=yes">
     <link rel="stylesheet" href="./css/foodmap.css">
     <link rel="stylesheet" href="https://unpkg.com/leaflet@1.7.1/dist/leaflet.css" integrity="sha512-xodZBNTC5n17Xt2atTPuE1HxjVMSvLVW9ocqUKLsCC5CXdbqCmblAshOMAS6/keqq/sMZMZ19scR4PsZChSR7A==" crossorigin="" />
+    <link rel="stylesheet" href="/css/slick.css">
+    <link rel="stylesheet" href="/css/slick-theme.css">
   </head>
   <body>
     <header class="header">
@@ -102,51 +104,108 @@
           <div class="snacktitle">小吃類</div>
         </div>
 
-        <div class="round_snack">
-          <div class="outsideleft_snack">
-            <div class="leftbtn_snack">
-              &lt;
-            </div>
-          </div>
-
-          <article class="food_snack">
-            <a href="#" class="food_block_snack"><img src="./images/小吃首圖_鴨霸_圓形.png"></a>
-            <div class="content_block_snack">
-              <div class="block_snack">
-                <span>鴨霸</span>
-                <br>
-                這是隨機的文字這是隨機的文字這是隨機的文字這是隨機的文字這是隨機的文字這是隨機的文字
-              </div>
-            </div>
-          </article>
-          <article class="food_big_snack">
-            <a href="#" class="food_block_big_snack"><img src="./images/小吃首圖_王氏魚皮_大圓形.png"></a>
-            <div class="content_block_big_snack">
-              <div class="block_big_snack">
-                <span id="middletitle_snack">王氏魚皮</span>
-                <br>
-                這是隨機的文字這是隨機的文字這是隨機的文字這是隨機的文字這是隨機的文字這是隨機的文字
-              </div>
-            </div>
-          </article>
-          <article class="food_snack">
-            <a href="#" class="food_block_snack"><img src="./images/小吃首圖_玩食燒_圓形.png"></a>
-            <div class="content_block_snack">
-              <div class="block_snack">
-                <span>玩食燒</span>
-                <br>
-                這是隨機的文字這是隨機的文字這是隨機的文字這是隨機的文字這是隨機的文字這是隨機的文字
-              </div>
-            </div>
-          </article>
-
-          <div class="outsideright_snack">
-            <div class="rightbtn_snack">
-              &gt;
-            </div>
-          </div>
-
-        </div>
+        <ul class="round_snack">
+          <li class="sna_slider">
+            <img src="./images/小吃首圖_佑師_圓形.png" alt="">
+            <div class="overlay"></div>
+            <div class="content_block_snack">佑師絕鼎炒飯</div>
+          </li>
+          <li class="sna_slider">
+            <img src="./images/小吃首圖_走路蘇_圓形.png" alt="">
+            <div class="overlay"></div>
+            <div class="content_block_snack">walking su麻油雞麵線</div>
+          </li>
+          <li class="sna_slider">
+            <img src="./images/小吃首圖_鳳姐_圓形.png" alt="">
+            <div class="overlay"></div>
+            <div class="content_block_snack">鳳姐鴨肉飯</div>
+          </li>
+          <li class="sna_slider">
+            <img src="./images/小吃首圖_乖乖_圓形.png" alt="">
+            <div class="overlay"></div>
+            <div class="content_block_snack">乖乖牛肉麵</div>
+          </li>
+          <li class="sna_slider">
+            <img src="./images/小吃首圖_唐家_圓形.png" alt="">
+            <div class="overlay"></div>
+            <div class="content_block_snack">唐家泡菜館</div>
+          </li>
+          <li class="sna_slider">
+            <img src="./images/小吃首圖_廣仔_圓形.png" alt="">
+            <div class="overlay"></div>
+            <div class="content_block_snack">廣仔虱目魚丸</div>
+          </li>
+          <li class="sna_slider">
+            <img src="./images/小吃首圖_鴨霸_圓形.png" alt="">
+            <div class="overlay"></div>
+            <div class="content_block_snack">鴨霸</div>
+          </li>
+          <li class="sna_slider">
+            <img src="./images/小吃首圖_安平鍋燒_圓形.png" alt="">
+            <div class="overlay"></div>
+            <div class="content_block_snack">安平鍋燒意麵</div>
+          </li>
+          <li class="sna_slider">
+            <img src="./images/小吃首圖_福相_圓形.png" alt="">
+            <div class="overlay"></div>
+            <div class="content_block_snack">福相</div>
+          </li>
+          <li class="sna_slider">
+            <img src="./images/小吃首圖_王氏魚皮_圓形.png" alt="">
+            <div class="overlay"></div>
+            <div class="content_block_snack">王氏魚皮</div>
+          </li>
+          <li class="sna_slider">
+            <img src="./images/小吃首圖_南門_圓形.png" alt="">
+            <div class="overlay"></div>
+            <div class="content_block_snack">南門牛肉麵</div>
+          </li>
+          <li class="sna_slider">
+            <img src="./images/小吃首圖_好可口_圓形.png" alt="">
+            <div class="overlay"></div>
+            <div class="content_block_snack">好可口烤鴨</div>
+          </li>
+          <li class="sna_slider">
+            <img src="./images/小吃首圖_醇涎坊_圓形.png" alt="">
+            <div class="overlay"></div>
+            <div class="content_block_snack">醇涎坊鍋燒意麵</div>
+          </li>
+          <li class="sna_slider">
+            <img src="./images/小吃首圖_玩食燒_圓形.png" alt="">
+            <div class="overlay"></div>
+            <div class="content_block_snack">玩食燒</div>
+          </li>
+          <li class="sna_slider">
+            <img src="./images/小吃首圖_香香_圓形.png" alt="">
+            <div class="overlay"></div>
+            <div class="content_block_snack">香香小吃</div>
+          </li>
+          <li class="sna_slider">
+            <img src="./images/小吃首圖_永記_圓形.png" alt="">
+            <div class="overlay"></div>
+            <div class="content_block_snack">永記虱目魚丸</div>
+          </li>
+          <li class="sna_slider">
+            <img src="./images/小吃首圖_萬紅_圓形.png" alt="">
+            <div class="overlay"></div>
+            <div class="content_block_snack">萬紅刀切麵</div>
+          </li>
+          <li class="sna_slider">
+            <img src="./images/小吃首圖_王記_圓形.png" alt="">
+            <div class="overlay"></div>
+            <div class="content_block_snack">王記好吃雞肉</div>
+          </li>
+          <li class="sna_slider">
+            <img src="./images/小吃首圖_飽芝林_圓形.png" alt="">
+            <div class="overlay"></div>
+            <div class="content_block_snack">飽芝林關東煮</div>
+          </li>
+          <li class="sna_slider">
+            <img src="./images/小吃首圖_小赤佬_圓形.png" alt="">
+            <div class="overlay"></div>
+            <div class="content_block_snack">小赤佬</div>
+          </li>
+        </ul>
       </div>
 
       <div class="bgcolor2">
@@ -253,6 +312,9 @@
       </div>
     </footer>
 
+
+    <script src="js/jquery-3.6.0.min.js"></script>
+    <script src="js/slick.js"></script>
 
     <script src="https://unpkg.com/leaflet@1.7.1/dist/leaflet.js" integrity="sha512-XQoYMqMTK8LvdxXYG3nZ448hOEQiglfqkJs1NOQV44cWnUrBc8PkAOcXy20w0vlaXaVUearIOBhiXZ5V3ynxwA==" crossorigin=""></script>
     <script>
@@ -525,6 +587,37 @@
     //   integrity="sha512-gZwIG9x3wUXg2hdXF6+rVkLF/0Vi9U8D2Ntg4Ga5I5BZpVkVxlJWbSQtXPSiUTtC0TjtGOmxa1AJPuV0CPthew=="
     //   crossorigin=""
     // ></script>
+
+
+    <!-- 小吃輪播 -->
+    <script>
+      $('.round_snack').slick({
+        dots: true,
+        centerMode: true,
+        centerPadding: '60px',
+        slidesToShow: 3,
+        responsive: [
+          {
+            breakpoint: 768,
+            settings: {
+              arrows: false,
+              centerMode: true,
+              centerPadding: '40px',
+              slidesToShow: 3
+            }
+          },
+          {
+            breakpoint: 480,
+            settings: {
+              arrows: false,
+              centerMode: true,
+              centerPadding: '40px',
+              slidesToShow: 1
+            }
+          }
+        ]
+      });
+    </script>
 
   </body>
 </html>

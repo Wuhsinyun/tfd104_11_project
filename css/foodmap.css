@@ -278,6 +278,10 @@ li.mapmap:hover ul.fm_restaurantchoose{
 div.bgcolor{
   /* border: 1px solid pink; */
   background-color: #8C533Da3;
+  height: auto;
+  width: auto;
+  text-align: center;
+  padding: 20px;
 }
 
 div.titleblock{
@@ -304,142 +308,60 @@ div.snacktitle{
   margin-top: 60px;
 }
 
-div.round_snack{
+ul.round_snack{
+  /* border: 1px solid blue; */
+  display: flex;
+  width: 1000px;
+  height: auto;
+  margin: 0 auto;
+  /* padding: 0; */
+  padding: 0px;
+  padding-bottom: 30px;
+  /* margin-bottom: 20px; */
+}
+
+ul.round_snack li.sna_slider{
   /* border: 1px solid green; */
-  display: inline-block;
-  text-align: center;
-  height: auto;
-  width: 1200px;
-  white-space:nowrap;
-  margin-top: 20px;
+  width: 200px;
+  height: 200px;
+  margin: 50px;
+  position: relative;
 }
 
-div.outsideleft_snack{
-  /* border: 1px solid transparent; */
-  display: inline-block;
-  height: auto;
-  text-align: left;
+ul.round_snack li.sna_slider div.overlay{
+  /* border: 1px solid pink; */
+  /* display: block; */
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 200px;
+  height: 200px;
+  border-radius: 100%;
+  background: rgba(0, 0, 0, 0.6);
+  /* margin: 0 auto; */
 }
 
-div.leftbtn_snack{
-  /* border: 1px solid transparent; */
-  height: auto;
-  width: 20px;
-  color: #F6EFE3;
-  background-color: #8C533D;
-  font-size: 30px;
-  white-space:nowrap;
+ul.round_snack .slick-center div.overlay{
+  opacity: 0;
+  /* margin: 0 auto; */
 }
 
-div.leftbtn_snack:hover{
-  color: #8C533D;
-  background-color: #F6EFE3;
+ul.round_snack li.sna_slider img{
+  width: 200px;
+  height: 200px;
+  transition: all linear .4s;
+  /* margin: 0 auto; */
 }
 
-article.food_snack{
-  /* border: 1px solid red; */
-  display: inline-block;
-  height: auto;
-  width: 300px;
-  white-space:normal;
-  /* margin: 10px; */
-  margin-top: 50px;
-  white-space:nowrap;
-}
-
-a.food_block_snack img{
-  /* border: 1px solid transparent; */
-  z-index: 2;
+ul.round_snack .slick-center{
+  transform: scale(1.2);
 }
 
 div.content_block_snack{
   /* border: 1px solid yellow; */
   color: #F6EFE3;
-  background-color: #8C533D;
-  border-radius: 20px;
-  z-index: 1;
-  margin: 20px;
-  margin-top: -20px;
-  line-height: 30px;
-  white-space:normal;
-}
-
-div.block_snack{
-  /* border: 1px solid pink; */
-  margin: 18px 10px;
-  /* width: 300px; */
-}
-
-div.content_block_snack span{
-  /* border: 1px solid orange; */
-  font-size: 22px;
-  /* margin: 50px; */
-}
-
-article.food_big_snack{
-  /* border: 1px solid red; */
-  display: inline-block;
-  height: 500px;
-  width: 350px;
-  white-space:normal;
-  /* margin: 20px; */
-  vertical-align: top;
-  white-space:nowrap;
-}
-
-a.food_block_big_snack img{
-  /* border: 1px solid transparent; */
-  z-index: 2;
-}
-
-div.content_block_big_snack{
-  /* border: 1px solid yellow; */
-  /* width: 300px; */
-  color: #F6EFE3;
-  background-color: #8C533D;
-  border-radius: 20px;
-  z-index: 1;
-  margin: 20px;
-  margin-top: -20px;
-  line-height: 30px;
-  font-size: 18px;
-  white-space:normal;
-}
-
-div.block_big_snack{
-  /* border: 1px solid pink; */
-  margin: 18px 10px;
-
-}
-
-#middletitle_snack{
-  /* border: 1px solid blue; */
-  font-size: 26px;
-}
-
-div.outsideright_snack{
-  /* border: 1px solid transparent; */
-  display: inline-block;
-  height: auto;
-  text-align: right;
-  white-space:nowrap;
-}
-
-div.rightbtn_snack{
-  /* border: 1px solid blue; */
-  height: auto;
-  width: 20px;
-  color: #F6EFE3;
-  background-color: #8C533D;
-  font-size: 30px;
-  display: inline-block;
-  white-space: nowrap;
-  /* float: right; */
-}
-
-div.rightbtn_snack:hover{
-  color: #8C533D;
-  background-color: #F6EFE3;
+  width: 200px;
+  /* text-align: left; */
 }
 
 

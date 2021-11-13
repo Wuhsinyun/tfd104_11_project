@@ -6,7 +6,7 @@ body{
 }
 
 .main{
-  border: 1px solid black;
+  /* border: 1px solid black; */
   height: auto;
   width: auto;
   text-align: center;
@@ -24,7 +24,7 @@ body{
 } */
 
 ul.container{
-  border: 1px solid blue;
+  /* border: 1px solid blue; */
   display: flex;
   width: 1200px;
   margin: 0 auto;
@@ -33,11 +33,25 @@ ul.container{
 }
 
 ul.container li.sna_slider{
-  border: 1px solid green;
+  /* border: 1px solid green; */
   width: 250px;
   height: 150px;
-  margin: 30px;
-  /* margin: 0 auto; */
+  margin: 50px;
+  position: relative;
+}
+
+ul.container li.sna_slider div.overlay{
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 250px;
+  height: 150px;
+  background: rgba(0, 0, 0, 0.6);
+  margin: 0 auto;
+}
+
+ul.container .slick-center div.overlay{
+  opacity: 0;
 }
 
 /* ul.container li.sna_slider img{
@@ -52,7 +66,7 @@ ul.container li.sna_slider img{
   width: 250px;
   height: 150px;
   transition: all linear .4s;
-  margin: 0 auto;
+  /* margin: 0 auto; */
 }
 
 ul.container .slick-center{
