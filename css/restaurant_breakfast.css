@@ -39,6 +39,8 @@ ul.journeychoose > li > a.link_style2{
 
 div.under{
   background-color: #FABB7C;
+  width: 100%;
+  max-width: 1920px;
 }
 
 .main{

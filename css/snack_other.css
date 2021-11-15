@@ -76,6 +76,8 @@ background-color: #F6EFE3;
 
 div.under{
   background-color: #8C533D;
+  width: 100%;
+  max-width: 1920px;
 }
 
 div.copy{

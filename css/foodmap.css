@@ -275,6 +275,8 @@ li.mapmap:hover ul.fm_restaurantchoose{
 }
 
 
+
+/* ========== 小吃輪播 ==========*/
 div.bgcolor{
   /* border: 1px solid pink; */
   background-color: #8C533Da3;
@@ -365,6 +367,7 @@ div.content_block_snack{
 }
 
 
+/* ========== 甜點輪播 ========== */
 div.bgcolor2{
   /* border: 1px solid pink; */
   background-color: #FBC7C3a3;
@@ -395,78 +398,74 @@ div.desserttitle{
   margin-top: 60px;
 }
 
-article.food_dessert{
-  /* border: 1px solid red; */
-  display: inline-block;
-  height: auto;
-  width: 300px;
-  white-space:normal;
-  margin: 20px;
-  margin-top: 50px;
+div.bgcolor2 ul.food_dessert{
+  /* border: 1px solid blue; */
+  display: flex;
+  width: 1200px;
+  padding: 20px;
+  margin-bottom: 50px;
 }
 
-a.food_block_dessert img{
-  /* border: 1px solid transparent; */
-  z-index: 2;
+div.bgcolor2 ul.food_dessert li.des_slider{
+  /* border: 1px solid green; */
+  width: 250px;
+  height: auto;
+  margin: 50px;
+  position: relative;
 }
 
 div.content_block_dessert{
-  /* border: 1px solid green; */
-  color: #8C533D;
+  /* border: 1px solid yellow; */
+  color: #F6EFE3;
   background-color: #E0A39C;
   border-radius: 20px;
-  z-index: 1;
-  margin: 20px;
-  margin-top: -20px;
-  line-height: 30px;
+  padding: 2px 0;
+  width: 200px;
+  /* text-align: left; */
 }
 
-div.外框_dessert{
-  /* border: 1px solid transparent; */
-  margin: 18px 10px;
-  font-size: 24px;
-  /* width: 300px; */
-}
-
-article.food_big_dessert{
+div.bgcolor2 ul.food_dessert_big{
   /* border: 1px solid blue; */
-  display: inline-block;
+  display: flex;
+  width: 400px;
+  margin: 0 auto;
+  /* padding: 0; */
+  padding: 20px;
+  position: absolute;
+  TOP: 1050px;
+  left: 200px;
+}
+ul.food_dessert_big li.des_slider_big{
+  /* border: 1px solid green; */
+  width: 100px;
   height: auto;
-  width: auto;
-  white-space:normal;
-  margin: 20px;
-  vertical-align: top;
-  text-align: center;
-  margin-right: 0;
-  margin-bottom: 40px;
+  margin: 30px;
+  position: relative;
 }
-
-a.food_block_big_dessert img{
-  /* border: 1px solid transparent; */
+ul.food_dessert_big li.des_slider_big img{
+  width: 320px;
+  height: 320px;
 }
-
-div.content_block_big_dessert{
-  /* border: 1px solid transparent; */
-  display: inline-block;
-  width: 300px;
-  height: 80px;
+div.content_block_dessert_big{
+  /* border: 1px solid yellow; */
   color: #8C533D;
-  font-size: 28px;
-  z-index: 5;
+  /* background-color: #E0A39C; */
+  border-radius: 20px;
+  padding: 2px 0;
+  width: 200px;
+  height: 25px;
   background-image: url("../images/甜點首圖_星型背景.png");
   background-repeat: no-repeat;
   background-size: 100% 100%;
-  margin-top: -60px;
-  margin-left: -250px;
-  vertical-align: middle;
+  padding: 10px;
+  position: absolute;
+  top: 300px;
+  left: 10px;
+  font-size: 20px;
 }
 
-div.外框_big_dessert{
-  /* border: 1px solid transparent; */
-  width: auto;
-  text-align: center;
-  margin: 20px
-}
+
+
 
 
 div.bgcolor3{
