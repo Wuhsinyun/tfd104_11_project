@@ -437,6 +437,7 @@ div.content_block_snack{
     font-size: 16px;
     margin-top: 20px;
   }
+
   ul.round_snack{
     width: 80%;
     height: 80%;
@@ -464,10 +465,12 @@ div.content_block_snack{
     font-size: 12px;
   }
 }
+
+
 @media (min-width: 576px) and (max-width: 767.98px){
-    div.snacktitle{
-      font-size: 18px;
-    }
+  div.snacktitle{
+    font-size: 18px;
+  }
   ul.round_snack{
     width: 80%;
     height: 80%;
@@ -516,11 +519,14 @@ div.content_block_snack{
 /* ========== 甜點輪播 ========== */
 
 div.bgcolor2{
-  /* border: 1px solid pink; */
+  /* border: 1px solid blue; */
   background-color: #FBC7C3a3;
-  white-space: nowrap;
-  width: 100%;
   max-width: 1920px;
+  height: auto;
+  width: auto;
+  text-align: center;
+  /* padding: 20px 0; */
+  margin: 0 auto;
 }
 
 div.titleblock2{
@@ -653,17 +659,31 @@ div.content_block_dessert_big{
     height: 280px;
   }
 }
+@media (min-width: 480px) and (max-width: 575.98px){
+  div.desserttitle{
+    font-size: 16px;
+    margin-top: 20px;
+  }
+}
+@media (min-width: 576px) and (max-width: 767.98px){
+  div.desserttitle{
+    font-size: 18px;
+  }
+}
 
 
 
 /* ========== 餐廳 ========== */
 div.bgcolor3{
-  /* border: 1px solid pink; */
+  /* border: 1px solid red; */
   background-color: #FABB7Ca3;
-  height: autoㄇ;
-  width: 100%;
   max-width: 1920px;
-  padding-bottom: 100px;
+  height: auto;
+  width: auto;
+  text-align: center;
+  /* padding: 80px; */
+  left: 0;
+  margin: 0 auto;
 }
 
 div.titleblock3{
@@ -741,7 +761,7 @@ div.res_left{
   margin: 10px;
 }
 div.res_left img{
-  border: 1px solid red;
+  /* border: 1px solid red; */
   display: inline-block;
   text-align: center;
   vertical-align: middle;
@@ -797,6 +817,9 @@ div.res_right img{
   margin: 10px;
   float: right;
   position: inherit;
+}
+#hello{
+  margin-bottom: 100px;
 }
 @media (min-width: 576px) and (max-width: 1199.98px){
   div.left_top img{
@@ -876,5 +899,16 @@ div.res_right img{
   }
   div.res_block1{
     margin: 0;
+  }
+}
+@media (min-width: 480px) and (max-width: 575.98px){
+  div.restauranttitle{
+    font-size: 16px;
+    margin-top: 20px;
+  }
+}
+@media (min-width: 576px) and (max-width: 767.98px){
+  div.restauranttitle{
+    font-size: 18px;
   }
 }
