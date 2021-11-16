@@ -522,18 +522,18 @@ div.bgcolor2{
 }
 
 div.titleblock2{
-  /* border: 1px solid yellow; */
+  border: 1px solid yellow;
   height: auto;
-  width: 1200px;
+  width: auto;
   margin: 0 auto;
   text-align: left;
 }
 
 div.desserttitle{
-  /* border: 1px solid black; */
+  border: 1px solid black;
   display: inline-block;
-  height: 50px;
-  width: 230px;
+  height: auto;
+  width: auto;
   font-size: 32px;
   color: #8C533D;
   background-image: url("../images/標題色塊.png");
@@ -543,18 +543,20 @@ div.desserttitle{
   vertical-align: middle;
   margin-left: 20px;
   margin-top: 60px;
+  padding: 5px 20px;
 }
 
 div.bgcolor2 ul.food_dessert{
-  /* border: 1px solid blue; */
+  border: 1px solid blue;
   display: flex;
-  width: 1200px;
+  width: 95%;
   padding: 20px;
+  margin: 0 auto;
   margin-bottom: 50px;
 }
 
 div.bgcolor2 ul.food_dessert li.des_slider{
-  /* border: 1px solid green; */
+  border: 1px solid green;
   width: 250px;
   height: auto;
   margin: 50px;
@@ -562,25 +564,25 @@ div.bgcolor2 ul.food_dessert li.des_slider{
 }
 
 div.content_block_dessert{
-  /* border: 1px solid yellow; */
+  border: 1px solid yellow;
   color: #F6EFE3;
   background-color: #E0A39C;
   border-radius: 20px;
   padding: 2px 0;
-  width: 200px;
+  width: auto;
   /* text-align: left; */
 }
 
 div.bgcolor2 ul.food_dessert_big{
-  /* border: 1px solid blue; */
+  border: 1px solid blue;
   display: flex;
   width: 400px;
   margin: 0 auto;
   /* padding: 0; */
   padding: 20px;
   position: absolute;
-  TOP: 1050px;
-  left: 200px;
+  margin-top: -420px;
+  left: 10%;
 }
 ul.food_dessert_big li.des_slider_big{
   /* border: 1px solid green; */
@@ -590,8 +592,8 @@ ul.food_dessert_big li.des_slider_big{
   position: relative;
 }
 ul.food_dessert_big li.des_slider_big img{
-  width: 320px;
-  height: 320px;
+  width: 280px;
+  height: 280px;
 }
 div.content_block_dessert_big{
   /* border: 1px solid yellow; */
@@ -599,18 +601,49 @@ div.content_block_dessert_big{
   /* background-color: #E0A39C; */
   border-radius: 20px;
   padding: 2px 0;
-  width: 200px;
+  width: auto;
   height: 25px;
   background-image: url("../images/甜點首圖_星型背景.png");
   background-repeat: no-repeat;
   background-size: 100% 100%;
-  padding: 10px;
+  padding: 10px 30px;
   position: absolute;
-  top: 300px;
-  left: 10px;
+  top: 200px;
+  left: 8px;
   font-size: 20px;
 }
-
+@media (max-width: 479.98px){
+  div.bgcolor2 ul.food_dessert_big{
+    margin-top: -340px;
+  }
+  ul.food_dessert_big li.des_slider_big img{
+    width: 180px;
+    height: 180px;
+  }
+  div.content_block_dessert_big{
+    top: 150px;
+  }
+}
+@media (min-width: 480px) and (max-width: 767.98px){
+  div.bgcolor2 ul.food_dessert_big{
+    margin-top: -380px;
+    width: 300px;
+  }
+  ul.food_dessert_big li.des_slider_big img{
+    width: 230px;
+    height: 230px;
+  }
+}
+@media (min-width: 768px) and (max-width: 991.98px){
+  div.bgcolor2 ul.food_dessert_big{
+    margin-top: -380px;
+    width: 350px
+  }
+  ul.food_dessert_big li.des_slider_big img{
+    width: 280px;
+    height: 280px;
+  }
+}
 
 
 
@@ -626,7 +659,7 @@ div.bgcolor3{
 div.titleblock3{
   /* border: 1px solid yellow; */
   height: auto;
-  width: 1200px;
+  width: auto;
   margin: 0 auto;
   text-align: left;
 }
@@ -634,8 +667,8 @@ div.titleblock3{
 div.restauranttitle{
   /* border: 1px solid black; */
   display: inline-block;
-  height: 50px;
-  width: 230px;
+  height: auto;
+  width: auto;
   font-size: 32px;
   color: #8C533D;
   background-image: url("../images/標題色塊.png");
@@ -645,30 +678,36 @@ div.restauranttitle{
   vertical-align: middle;
   margin-left: 20px;
   margin-top: 60px;
+  padding: 5px 20px;
 }
 
 div.res_block1{
-  /* border: 1px solid red; */
+  border: 1px solid red;
   display: inline-block;
   height: auto;
-  width: 1200px;
+  width: 100%;
   text-align: center;
   white-space: nowrap;
-  margin: 20px;
+  margin: 20px 0;
 }
 
 div.res_block1 img{
-  /* border: 1px solid yellow; */
+  border: 1px solid yellow;
   display: inline-block;
   height: auto;
   border-radius: 20px;
   white-space: nowrap;
   margin: 8px;
+  /* margin-left: 20px; */
   /* margin-top: -40px; */
+}
+div.res_block1 img:nth-child(2n){
+  /* border: 1px solid blue; */
+  /* float: right; */
 }
 
 div.res_chooseleft{
-  /* border: 1px solid black; */
+  border: 1px solid black;
   display: inline-block;
   height: auto;
   text-align: left;
@@ -714,8 +753,8 @@ div.res_right{
 }
 
 a.res img{
-  display: inline-block;
-  vertical-align: middle;
+  /* display: inline-block;
+  vertical-align: middle; */
 }
 
 div.res_chooseleft2{
