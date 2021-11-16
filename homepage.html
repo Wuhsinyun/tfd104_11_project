@@ -479,9 +479,11 @@
     // 設定地圖中心點與放大倍率
       const map = L.map("myMap2", {
         center: [22.997658741867884, 120.2025390719266],
-        zoom: 13,
+        zoom: 14,
         zoomControl: true,
-        scrollWheelZoom:false
+        scrollWheelZoom: false,
+        // webkit-touch-callout: none
+        // popup.keepInView: true,
       });
 
       // 載入圖資
@@ -494,12 +496,17 @@
         .bindPopup("台南美食地圖")
         .openPopup();
 
+      // let L.Icon({
+      //   -webkit-touch-callout: none;
+      // })
+
       // 創建 icon (咖啡色)
       const brownIcon = new L.Icon({
         iconUrl:"./images/brownicon.svg",
         iconSize: [25, 41],
         iconAnchor: [12, 41],
         popupAnchor: [1, -34],
+        // -webkit-touch-callout: none,
       });
       // 創建 icon (粉紅色)
       const pinkIcon = new L.Icon({
@@ -523,7 +530,8 @@
         // 添加標記點
         L.marker(item.local, {
           title: item.name,
-          icon: myIcon
+          icon: myIcon,
+          // webkit-touch-callout: none
         })
         .addTo(map)
         .bindPopup(item.name + ":" + item.address);

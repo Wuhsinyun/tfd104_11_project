@@ -113,7 +113,7 @@
           <li class="sna_slider">
             <img src="./images/小吃首圖_走路蘇_圓形.png" alt="">
             <div class="overlay"></div>
-            <div class="content_block_snack">walking su麻油雞麵線</div>
+            <div class="content_block_snack">walking su</div>
           </li>
           <li class="sna_slider">
             <img src="./images/小吃首圖_鳳姐_圓形.png" alt="">
@@ -168,7 +168,7 @@
           <li class="sna_slider">
             <img src="./images/小吃首圖_醇涎坊_圓形.png" alt="">
             <div class="overlay"></div>
-            <div class="content_block_snack">醇涎坊鍋燒意麵</div>
+            <div class="content_block_snack">醇涎坊</div>
           </li>
           <li class="sna_slider">
             <img src="./images/小吃首圖_玩食燒_圓形.png" alt="">
@@ -209,7 +209,7 @@
       </div>
 
       <div class="bgcolor2">
-        <div class="titleblock">
+        <div class="titleblock2">
           <div class="desserttitle">甜點類</div>
         </div>
 
@@ -321,7 +321,7 @@
       <div>
 
       <div class="bgcolor3">
-        <div class="titleblock">
+        <div class="titleblock3">
           <div class="restauranttitle">餐廳類</div>
         </div>
 
@@ -486,7 +486,8 @@
       const map = L.map("myMap", {
         center: [22.997658741867884, 120.2025390719266],
         zoom: 14,
-        zoomControl: false
+        zoomControl: true,
+        scrollWheelZoom: false,
       });
 
       // 載入圖資
@@ -670,6 +671,7 @@
     <script>
       $('.round_snack').slick({
         dots: true,
+        dotsClass: 'slick-dots',
         centerMode: true,
         centerPadding: '60px',
         slidesToShow: 3,
