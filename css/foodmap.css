@@ -372,8 +372,11 @@ div.content_block_snack{
 }
 .slick-dots{
   border: 1px solid orange;
-  width: auto;
+  display: inline-block;
+  width: 100%;
   overflow: auto;
+  margin: 0 auto;
+
 }
 .slick-dots::-webkit-scrollbar{
   /* border: 1px solid yellow; */
