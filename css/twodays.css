@@ -9,8 +9,12 @@ body{
   color: black;
 }
 
+img{
+  max-width: 100%;
+}
+
 .main{
-  /* border: 1px solid blue; */
+  border: 1px solid blue;
   height: auto;
   width: auto;
   text-align: center;
@@ -18,14 +22,15 @@ body{
 }
 
 div.titleblock{
-  /* border: 1px solid black; */
+  border: 1px solid black;
   text-align: left;
   width: 1200px;
+  max-width: 100%;
   margin: 0 auto;
 }
 
 div.title{
-  /* border: 1px solid orange; */
+  border: 1px solid orange;
   display: inline-block;
   height: 50px;
   width: 230px;
@@ -43,14 +48,29 @@ div.title{
 }
 
 div.ONE{
-  /* border: 1px solid orange; */
+  border: 1px solid orange;
   height: 550px;
+  width: 100%;
   text-align: center;
   white-space: nowrap;
+  display: inline-block;
+}
+
+div.line_one{
+  /* border: 1px solid purple; */
+  width: 50%;
+  float: left;
+  /* padding: 0; */
+
+}
+div.line_two{
+  /* border: 1px solid green; */
+  width: 50%;
+  float: right;
 }
 
 article.food1{
-  /* border: 1px solid green; */
+  border: 1px solid green;
   display: inline-block;
   height: auto;
   width: 300px;
@@ -69,6 +89,8 @@ article.food2{
   text-align: center;
   position: relative;
   top: 50px;
+  float: right;
+  margin-right: 40px;
 }
 
 article.food3{
@@ -93,6 +115,17 @@ article.food4{
   text-align: center;
   position: relative;
   top: 150px;
+  float: right;
+  margin-right: 40px;
+}
+
+@media (min-width: 576px) and (max-width: 1399.98px){
+  article.food3{
+    /* display: block; */
+  }
+  article.food4{
+    /* display: block; */
+  }
 }
 
 div.content_block{
