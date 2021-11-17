@@ -31,8 +31,41 @@ div.map_block{
 #myMap {
   /* border: 1px solid black; */
   width: 90vw;
-  height: 350px;
+  height: 70vh;
   display: inline-block;
+}
+
+@keyframes twinkling{
+  from{
+  opacity: 0;
+  }
+  to{
+  opacity: 1;
+  }
+}
+div.remember{
+  /* border: 1px solid red; */
+  width: auto;
+  max-width: 100%;
+  text-align: center;
+  display: inline-block;
+  line-height: normal;
+  -webkit-animation: twinkling 2s infinite linear;
+}
+div.remember_text{
+  /* border: 1px solid blue; */
+  display: inline-block;
+  text-align: center;
+  height: 100%;
+  line-height: normal;
+  color: #8C533D;
+  font-size: 20px;
+  vertical-align: middle;
+}
+div.remember img{
+  display: inline-block;
+  text-align: center;
+  vertical-align: middle;
 }
 
 div.map{
