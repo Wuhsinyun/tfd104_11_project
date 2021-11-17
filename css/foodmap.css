@@ -363,7 +363,7 @@ ul.round_snack{
   height: auto;
   margin: 0 auto;
   /* padding: 0; */
-  /* padding: 20px 0; */
+  padding: 20px 0;
 }
 
 ul.round_snack li.sna_slider{
