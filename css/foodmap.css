@@ -389,7 +389,7 @@ div.content_block_snack{
   border-radius: 10px;
   /* height: 5px; */
 }
-@media screen and (max-width: 479.98px){
+@media (max-width: 479.98px){
   div.bgcolor{
     max-width: 500px;
   }
@@ -525,7 +525,7 @@ div.bgcolor2{
   height: auto;
   width: auto;
   text-align: center;
-  /* padding: 20px 0; */
+  padding: 20px;
   margin: 0 auto;
 }
 
@@ -635,7 +635,7 @@ div.content_block_dessert_big{
     height: 280px;
   }
 }
-@media (min-width: 480px) and (max-width: 575.98px){
+@media (max-width: 575.98px){
   div.desserttitle{
     font-size: 16px;
     margin-top: 20px;
@@ -657,8 +657,7 @@ div.bgcolor3{
   height: auto;
   width: auto;
   text-align: center;
-  /* padding: 80px; */
-  left: 0;
+  padding: 20px;
   margin: 0 auto;
 }
 
@@ -694,7 +693,7 @@ div.res_block1{
   width: 100%;
   text-align: center;
   white-space: nowrap;
-  margin: 20px 0;
+  margin: 10px 0;
 }
 
 div.left_top{
@@ -757,6 +756,7 @@ div.right_top img{
   display: inline-block;
   border-radius: 20px;
   margin: 30px;
+  /* margin-right: 100px; */
   position: relative;
   top: 200px;
 }
@@ -877,7 +877,7 @@ div.res_right img{
     margin: 0;
   }
 }
-@media (min-width: 480px) and (max-width: 575.98px){
+@media (max-width: 575.98px){
   div.restauranttitle{
     font-size: 16px;
     margin-top: 20px;

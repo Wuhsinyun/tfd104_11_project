@@ -16,7 +16,7 @@ header.header{
   box-sizing: border-box;
   background-color: #F6EFE3;
   position: sticky;
-  z-index: 1000;
+  z-index: 10000;
   top: 0;
   text-align: center;
   /* text-align: center; */
