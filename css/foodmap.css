@@ -315,7 +315,7 @@ div.snacktitle{
 }
 
 ul.round_snack{
-  border: 1px solid blue;
+  /* border: 1px solid blue; */
   display: flex;
   width: 95%;
   max-width: 1000px;
@@ -326,7 +326,7 @@ ul.round_snack{
 }
 
 ul.round_snack li.sna_slider{
-  border: 1px solid green;
+  /* border: 1px solid green; */
   margin: auto;
   width: auto;
   position: relative;
@@ -371,7 +371,7 @@ div.content_block_snack{
   /* text-align: left; */
 }
 .slick-dots{
-  border: 1px solid orange;
+  /* border: 1px solid orange; */
   display: inline-block;
   width: 100%;
   overflow: auto;
@@ -402,7 +402,7 @@ div.content_block_snack{
     margin-top: 20px;
   }
   ul.round_snack{
-    width: 90%;
+    width: 80%;
     height: 80%;
     margin: 0 auto;
     padding-bottom: 0px;
@@ -410,20 +410,21 @@ div.content_block_snack{
   ul.round_snack li.sna_slider{
     width: 80%;
     height: 80%;
-    margin: 20px 0;
+    /* margin: 20px 0; */
     /* margin: 50px; */
     /* padding: 10px; */
   }
   ul.round_snack li.sna_slider div.overlay{
-    width: 60px;
+    display: none;
+    /* width: 60px;
     height: 60px;
-    padding: 0 20px;
+    padding: 0 20px; */
     /* margin: 10px; */
   }
   ul.round_snack li.sna_slider img{
     width: 60px;
     height: 60px;
-    padding: 0 20px;
+    /* padding: 0 20px; */
     /* margin: 10px; */
     /* margin-right: 200px; */
   }
