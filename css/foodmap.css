@@ -340,8 +340,6 @@ div.snacktitle{
   background-image: url("../images/標題色塊.png");
   background-repeat: no-repeat;
   background-size: 100% 100%;
-  text-align: center;
-  /* vertical-align: bottom; */
   margin-left: 20px;
   margin-top: 60px;
   padding: 5px 20px;
@@ -591,6 +589,7 @@ div.titleblock2{
   width: auto;
   margin: 0 auto;
   text-align: left;
+  padding: 0 20px;
 }
 
 div.desserttitle{
@@ -607,7 +606,7 @@ div.desserttitle{
   vertical-align: middle;
   margin-left: 20px;
   margin-top: 60px;
-  padding: 5px 0;
+  padding: 5px 20px;
 }
 
 div.bgcolor2 ul.food_dessert{
@@ -616,7 +615,7 @@ div.bgcolor2 ul.food_dessert{
   width: 100%;
   padding: 20px 0;
   margin: 0 auto;
-  margin-bottom: 50px;
+  /* margin-bottom: 50px; */
 }
 
 div.bgcolor2 ul.food_dessert li.des_slider{
