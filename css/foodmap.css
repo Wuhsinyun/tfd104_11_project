@@ -314,6 +314,14 @@ div.snacktitle{
   padding: 5px 20px;
 }
 
+div.snack_slick_block{
+  /* border: 1px solid red; */
+  width: auto;
+  height: auto;
+  text-align: center;
+  margin: 0 auto;
+}
+
 ul.round_snack{
   /* border: 1px solid blue; */
   display: flex;
@@ -322,7 +330,7 @@ ul.round_snack{
   height: auto;
   margin: 0 auto;
   /* padding: 0; */
-  padding: 20px;
+  /* padding: 20px 0; */
 }
 
 ul.round_snack li.sna_slider{
@@ -330,24 +338,26 @@ ul.round_snack li.sna_slider{
   margin: auto;
   width: auto;
   position: relative;
-  padding: 20px 0;
+  padding: 30px 0;
 }
 
 ul.round_snack li.sna_slider div.overlay{
   /* border: 1px solid pink; */
   /* display: block; */
   position: absolute;
-  top: 20px;
+  top: 30px;
   left: 0;
   width: 200px;
   height: 200px;
   border-radius: 100%;
   background: rgba(0, 0, 0, 0.6);
+  /* padding: 30px 0; */
   /* margin: 0 auto; */
 }
 
 ul.round_snack .slick-center div.overlay{
   opacity: 0;
+  /* padding: 30px 0; */
   /* padding: 20px 0; */
   /* margin: 0 auto; */
 }
@@ -360,7 +370,7 @@ ul.round_snack li.sna_slider img{
 }
 
 ul.round_snack .slick-center{
-  transform: scale(1.1);
+  transform: scale(1.2);
   overflow: visible;
 }
 
@@ -373,9 +383,11 @@ div.content_block_snack{
 .slick-dots{
   /* border: 1px solid orange; */
   display: inline-block;
-  width: 100%;
+  width: 95%;
   overflow: auto;
   margin: 0 auto;
+  padding: 0;
+  /* float: right; */
 
 }
 .slick-dots::-webkit-scrollbar{
@@ -384,7 +396,7 @@ div.content_block_snack{
   border-radius: 10px;
   width: 5px;
   height: 8px;
-  margin-top: 20px;
+  /* margin-left: 30px; */
 }
 
 .slick-dots::-webkit-scrollbar-thumb{
