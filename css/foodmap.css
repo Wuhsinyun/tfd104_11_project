@@ -631,11 +631,14 @@ div.bgcolor2 ul.food_dessert li.des_slider img{
 
 div.content_block_dessert{
   /* border: 1px solid yellow; */
+  display: inline-block;
   color: #F6EFE3;
   background-color: #E0A39C;
   border-radius: 20px;
   padding: 2px 0;
   width: auto;
+  line-height: inherit;
+  padding: 5px 10px;
   /* text-align: left; */
 }
 
