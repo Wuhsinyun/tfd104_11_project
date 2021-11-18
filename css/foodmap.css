@@ -647,7 +647,7 @@ div.bgcolor2 ul.food_dessert_big{
   /* padding: 0; */
   padding: 20px;
   position: absolute;
-  margin-top: -420px;
+  margin-top: -400px;
   left: 10%;
 }
 ul.food_dessert_big li.des_slider_big{
@@ -658,8 +658,8 @@ ul.food_dessert_big li.des_slider_big{
   position: relative;
 }
 ul.food_dessert_big li.des_slider_big img{
-  width: 280px;
-  height: 280px;
+  width: 300px;
+  height: 300px;
 }
 div.content_block_dessert_big{
   /* border: 1px solid yellow; */
@@ -674,7 +674,7 @@ div.content_block_dessert_big{
   background-size: 100% 100%;
   padding: 10px 30px;
   position: absolute;
-  top: 200px;
+  top: 250px;
   left: 8px;
   font-size: 20px;
 }
